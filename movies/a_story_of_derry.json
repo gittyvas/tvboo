@@ -1,0 +1,66 @@
+{
+    "tmdb_id": 1813355,
+    "media_type": "movie",
+    "slug": "a_story_of_derry",
+    "title": "A Story of Derry",
+    "tagline": "",
+    "first_air_date": "2026-10-31",
+    "rating": "6.683",
+    "vote_count": 41,
+    "popularity": 154.4469,
+    "genres": [
+        "Drama",
+        "Horror",
+        "Mystery"
+    ],
+    "status": "Released",
+    "network": "Rideback",
+    "poster": "https://image.tmdb.org/t/p/w500/4PtzGcegF5Po1NmDAW9IklyvAUh.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/z26LxXDMmAIzKr06FPDudCJyvsM.jpg",
+    "overview": "Hundreds of years before Pennywise, three youngsters venture into the Western Wood...where they encounter a terrifying ancient spirit.",
+    "trailer_url": "https://www.youtube.com/watch?v=iOjzJsHS0M0",
+    "cast": [
+        {
+            "name": "Kiawentiio",
+            "character": "Neekani",
+            "profile_path": "https://image.tmdb.org/t/p/w500/vsjD9XhOYk8GbYdH7vfMNEoOSLv.jpg"
+        },
+        {
+            "name": "Isabel DeRoy-Olson",
+            "character": "Kino",
+            "profile_path": "https://image.tmdb.org/t/p/w500/5Q00DYyruBqaJQuHqnu6qxVnpXT.jpg"
+        },
+        {
+            "name": "Michael Podemski",
+            "character": "Maneese",
+            "profile_path": "https://image.tmdb.org/t/p/w500/rKhfWIIQhiGKLyhB238wFCDv1nE.jpg"
+        },
+        {
+            "name": "Zahn McClarnon",
+            "character": "Mitig",
+            "profile_path": "https://image.tmdb.org/t/p/w500/54M2t1gziirkDdvj4SxAl6dXaVO.jpg"
+        },
+        {
+            "name": "MorningStar Angeline",
+            "character": "Sesqui",
+            "profile_path": "https://image.tmdb.org/t/p/w500/nB1PCopniuETacJofZ254Cr4CFo.jpg"
+        },
+        {
+            "name": "Brandon Oakes",
+            "character": "Apto",
+            "profile_path": "https://image.tmdb.org/t/p/w500/iiEiwcEaOObQXHoOitU1wstZmMF.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "HBO Max Amazon Channel",
+            "logo_path": "https://image.tmdb.org/t/p/w500/64fLWeSyZ1KQZhIdvTdy4QHeWty.png",
+            "link": "https://www.themoviedb.org/movie/1813355/watch?locale=US"
+        },
+        {
+            "provider_name": "HBO Max",
+            "logo_path": "https://image.tmdb.org/t/p/w500/skypuy7SXuugIQeYg0IglmzoKaS.png",
+            "link": "https://www.themoviedb.org/movie/1813355/watch?locale=US"
+        }
+    ]
+}

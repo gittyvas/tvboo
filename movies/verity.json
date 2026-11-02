@@ -1,0 +1,85 @@
+{
+    "tmdb_id": 1283515,
+    "media_type": "movie",
+    "slug": "verity",
+    "title": "Verity",
+    "tagline": "There is no light where we're going.",
+    "first_air_date": "2026-09-30",
+    "rating": "6.867",
+    "vote_count": 539,
+    "popularity": 236.8477,
+    "genres": [
+        "Mystery",
+        "Thriller"
+    ],
+    "status": "Released",
+    "network": "Eat the Cat",
+    "poster": "https://image.tmdb.org/t/p/w500/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg",
+    "overview": "Lowen Ashleigh, hired to ghostwrite for best-selling author Verity Crawford, uncovers Verity's autobiographical notes, and becomes involved in what may prove to be a lethal conspiracy.",
+    "trailer_url": "https://www.youtube.com/watch?v=8DrNVCBXTk0",
+    "cast": [
+        {
+            "name": "Dakota Johnson",
+            "character": "Lowen Ashleigh",
+            "profile_path": "https://image.tmdb.org/t/p/w500/bSfVBJ8S3F1MPpCmIWb8UJcUZGP.jpg"
+        },
+        {
+            "name": "Anne Hathaway",
+            "character": "Verity Crawford",
+            "profile_path": "https://image.tmdb.org/t/p/w500/s6tflSD20MGz04ZR2R1lZvhmC4Y.jpg"
+        },
+        {
+            "name": "Josh Hartnett",
+            "character": "Jeremy Crawford",
+            "profile_path": "https://image.tmdb.org/t/p/w500/5eMo8D7h1XrSu6ZN4UXhPcS6YNG.jpg"
+        },
+        {
+            "name": "Brady Wagner",
+            "character": "Crew Crawford",
+            "profile_path": "https://image.tmdb.org/t/p/w500/zs3cN1hphCAAuSKQt1sOPnUzCWg.jpg"
+        },
+        {
+            "name": "Ismael Cruz Cordova",
+            "character": "Corey",
+            "profile_path": "https://image.tmdb.org/t/p/w500/oXcrsQGndk60iFkNB8qFnMHlNzL.jpg"
+        },
+        {
+            "name": "Iryna Dvorovenko",
+            "character": "Anna",
+            "profile_path": "https://image.tmdb.org/t/p/w500/hGmlhlYZEU73AlaiUqAcoIWtYU8.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/1283515/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/1283515/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1283515/watch?locale=US"
+        },
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/1283515/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/1283515/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1283515/watch?locale=US"
+        }
+    ]
+}

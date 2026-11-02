@@ -1,0 +1,90 @@
+{
+    "tmdb_id": 1288445,
+    "media_type": "movie",
+    "slug": "mutiny",
+    "title": "Mutiny",
+    "tagline": "There's blood in the water.",
+    "first_air_date": "2026-08-19",
+    "rating": "7.652",
+    "vote_count": 1011,
+    "popularity": 95.4435,
+    "genres": [
+        "Action",
+        "Thriller"
+    ],
+    "status": "Released",
+    "network": "Punch Palace Productions",
+    "poster": "https://image.tmdb.org/t/p/w500/pu2VxGlpGwffOx292w18b1tv96j.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
+    "overview": "After witnessing his billionaire boss' murder and being framed for the crime, Cole Reed boards a cargo ship on a one-man crusade to avenge his boss' death only to discover an international conspiracy.",
+    "trailer_url": "https://www.youtube.com/watch?v=c38ogNyQe3g",
+    "cast": [
+        {
+            "name": "Jason Statham",
+            "character": "Cole Reed",
+            "profile_path": "https://image.tmdb.org/t/p/w500/8l6lmrmKFDvhDjMJPj6tBpJdhaA.jpg"
+        },
+        {
+            "name": "Annabelle Wallis",
+            "character": "Angie Ellis",
+            "profile_path": "https://image.tmdb.org/t/p/w500/2ZmO2Zz9TcR0rmSJHOkivcu0heR.jpg"
+        },
+        {
+            "name": "Roland M\u00f8ller",
+            "character": "Captain Marko Madsen",
+            "profile_path": "https://image.tmdb.org/t/p/w500/bF7wrJ5mrIhSwyi6ylhyQWj9BoN.jpg"
+        },
+        {
+            "name": "Ramon Tikaram",
+            "character": "Tibu Campallo",
+            "profile_path": "https://image.tmdb.org/t/p/w500/wtBLiI8tzeqPLMB9uswkyFhChva.jpg"
+        },
+        {
+            "name": "Arnas Fedaravi\u010dius",
+            "character": "Mateo Pineda",
+            "profile_path": "https://image.tmdb.org/t/p/w500/7WfcGugvkuPqEzu0cUJBeJPt1lD.jpg"
+        },
+        {
+            "name": "Jason Wong",
+            "character": "Taran",
+            "profile_path": "https://image.tmdb.org/t/p/w500/tt3D1PAoB8Yf4jPCovnhlP4pvL3.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/1288445/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/1288445/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1288445/watch?locale=US"
+        },
+        {
+            "provider_name": "Plex",
+            "logo_path": "https://image.tmdb.org/t/p/w500/blAEhvx3XX8sV0fFVFk88FFjubs.png",
+            "link": "https://www.themoviedb.org/movie/1288445/watch?locale=US"
+        },
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/1288445/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/1288445/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1288445/watch?locale=US"
+        }
+    ]
+}

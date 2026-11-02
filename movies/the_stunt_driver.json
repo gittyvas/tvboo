@@ -1,0 +1,111 @@
+{
+    "tmdb_id": 1562777,
+    "media_type": "movie",
+    "slug": "the_stunt_driver",
+    "title": "The Stunt Driver",
+    "tagline": "",
+    "first_air_date": "2026-09-25",
+    "rating": "7.0",
+    "vote_count": 7,
+    "popularity": 14.1099,
+    "genres": [
+        "Comedy",
+        "Drama",
+        "History"
+    ],
+    "status": "Released",
+    "network": "Film Cardinal",
+    "poster": "https://image.tmdb.org/t/p/w500/jFiMdTG8Hw41A3VxrzLEWtMFIYX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/mCSWDVb87GpfQKEyvHIlBt6Obht.jpg",
+    "overview": "Based on a true story, a Canadian stunt driver recruits a top sports manager and rocket car designers to attempt a record-breaking jump across the Saint Lawrence River, hoping to achieve fame and fortune.",
+    "trailer_url": "https://www.youtube.com/watch?v=dcbRqIuFAiE",
+    "cast": [
+        {
+            "name": "Jay Baruchel",
+            "character": "Ken Carter",
+            "profile_path": "https://image.tmdb.org/t/p/w500/1GYJeQzPcY9Pfmc3FFsBwClkCv7.jpg"
+        },
+        {
+            "name": "Ed Helms",
+            "character": "Dick Keller",
+            "profile_path": "https://image.tmdb.org/t/p/w500/gPZ8tZaNQGAc3KZRIPp9rgGbEnN.jpg"
+        },
+        {
+            "name": "Ben Foster",
+            "character": "Evel Knievel",
+            "profile_path": "https://image.tmdb.org/t/p/w500/p5FlM9OOStD9I0Nm3GGlhaiAC5r.jpg"
+        },
+        {
+            "name": "Laurence Leboeuf",
+            "character": "Gloria",
+            "profile_path": "https://image.tmdb.org/t/p/w500/tbsbBn7A6tFag0eAJjH0NbnS1MX.jpg"
+        },
+        {
+            "name": "Joe Cobden",
+            "character": "Bob Fortier",
+            "profile_path": "https://image.tmdb.org/t/p/w500/aI26eGubA3kFhJQNoWt4gtQyviM.jpg"
+        },
+        {
+            "name": "Marc Beaupr\u00e9",
+            "character": "Danny Lafortune",
+            "profile_path": "https://image.tmdb.org/t/p/w500/qGBBmUfj5xlDWK15po0axpTUm3K.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/1562777/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/1562777/watch?locale=US"
+        },
+        {
+            "provider_name": "Google Play Movies",
+            "logo_path": "https://image.tmdb.org/t/p/w500/aZRENwYILujqs0RVOZutTh0BVGV.png",
+            "link": "https://www.themoviedb.org/movie/1562777/watch?locale=US"
+        },
+        {
+            "provider_name": "YouTube",
+            "logo_path": "https://image.tmdb.org/t/p/w500/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
+            "link": "https://www.themoviedb.org/movie/1562777/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1562777/watch?locale=US"
+        },
+        {
+            "provider_name": "Plex",
+            "logo_path": "https://image.tmdb.org/t/p/w500/blAEhvx3XX8sV0fFVFk88FFjubs.png",
+            "link": "https://www.themoviedb.org/movie/1562777/watch?locale=US"
+        },
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/1562777/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/1562777/watch?locale=US"
+        },
+        {
+            "provider_name": "Google Play Movies",
+            "logo_path": "https://image.tmdb.org/t/p/w500/aZRENwYILujqs0RVOZutTh0BVGV.png",
+            "link": "https://www.themoviedb.org/movie/1562777/watch?locale=US"
+        },
+        {
+            "provider_name": "YouTube",
+            "logo_path": "https://image.tmdb.org/t/p/w500/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
+            "link": "https://www.themoviedb.org/movie/1562777/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1562777/watch?locale=US"
+        }
+    ]
+}

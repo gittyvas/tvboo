@@ -1,0 +1,55 @@
+{
+    "tmdb_id": 656908,
+    "media_type": "movie",
+    "slug": "ramayana_rise_of_a_legend",
+    "title": "Ramayana: Rise of a Legend",
+    "tagline": "Our truth. Our history",
+    "first_air_date": "2026-11-04",
+    "rating": "10.0",
+    "vote_count": 1,
+    "popularity": 27.5598,
+    "genres": [
+        "Fantasy",
+        "Action",
+        "Adventure"
+    ],
+    "status": "Released",
+    "network": "Monster Mind Creations",
+    "poster": "https://image.tmdb.org/t/p/w500/cK6xaYrb498y2rmMRSZmRKaCXKL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/bkhPaFOiqc9GeLMdf1D44KbozRH.jpg",
+    "overview": "An ancient epic follows a young prince and princess whose marriage and subsequent exile mark the beginning of a legendary journey. Their story of love, duty and destiny sets the stage for greater challenges ahead.",
+    "trailer_url": "https://www.youtube.com/watch?v=AYkPRN874m8",
+    "cast": [
+        {
+            "name": "Ranbir Kapoor",
+            "character": "Prince Ram / Parshuram / Lord Vishnu",
+            "profile_path": "https://image.tmdb.org/t/p/w500/ymYNHV9luwgyrw17NXHqbOWTQkg.jpg"
+        },
+        {
+            "name": "Yash",
+            "character": "Ravana",
+            "profile_path": "https://image.tmdb.org/t/p/w500/eN4AXetHfg8sFOI4tCFBCaq1iac.jpg"
+        },
+        {
+            "name": "Sai Pallavi",
+            "character": "Sita",
+            "profile_path": "https://image.tmdb.org/t/p/w500/qAPdGKUIUEzLibdgVCey7oKvvME.jpg"
+        },
+        {
+            "name": "Ravi Dubey",
+            "character": "Lakshman",
+            "profile_path": "https://image.tmdb.org/t/p/w500/dUhZ0E8nchBkjYV0okWfj4BLxy2.jpg"
+        },
+        {
+            "name": "Arun Govil",
+            "character": "King Dashrath",
+            "profile_path": "https://image.tmdb.org/t/p/w500/xgefRNWurCiwyLSlpnDGgfMIF7H.jpg"
+        },
+        {
+            "name": "Rakul Preet Singh",
+            "character": "Surpanakha",
+            "profile_path": "https://image.tmdb.org/t/p/w500/4n4MmOFNyxKc4qMfzyapglvDDlF.jpg"
+        }
+    ],
+    "watch_providers": []
+}

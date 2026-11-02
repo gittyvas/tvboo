@@ -1,0 +1,54 @@
+{
+    "tmdb_id": 1198654,
+    "media_type": "movie",
+    "slug": "bad_apples",
+    "title": "Bad Apples",
+    "tagline": "It only takes one.",
+    "first_air_date": "2026-09-10",
+    "rating": "6.889",
+    "vote_count": 144,
+    "popularity": 26.0259,
+    "genres": [
+        "Comedy",
+        "Thriller"
+    ],
+    "status": "Released",
+    "network": "HanWay Films",
+    "poster": "https://image.tmdb.org/t/p/w500/pcPLnxCThCIo9JFQIMFX4kAE5Yz.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/dNCK3daKbOi6IHSsM9O2Nwyd91Y.jpg",
+    "overview": "A struggling primary school teacher is forced to take drastic action because of a foul-mouthed, violent student, and uncovers how her community will turn a blind eye to the most outrageous events to preserve harmony and their sense of safety.",
+    "trailer_url": "https://www.youtube.com/watch?v=nuaX1aU5EbM",
+    "cast": [
+        {
+            "name": "Saoirse Ronan",
+            "character": "Maria",
+            "profile_path": "https://image.tmdb.org/t/p/w500/9buDPdqKN9vbnQLLkHEinDtMrCG.jpg"
+        },
+        {
+            "name": "Eddie Waller",
+            "character": "Danny",
+            "profile_path": "https://image.tmdb.org/t/p/w500/6kng2WgJxl4MWb9W2UYRzFGxv8p.jpg"
+        },
+        {
+            "name": "Nia Brown",
+            "character": "Pauline",
+            "profile_path": "https://image.tmdb.org/t/p/w500/M5S9AupXMERehrWvB9qAC2vmi.jpg"
+        },
+        {
+            "name": "Jacob Anderson",
+            "character": "Sam",
+            "profile_path": "https://image.tmdb.org/t/p/w500/pyF5Zzt1PeumURQwBFcRtJPIwOF.jpg"
+        },
+        {
+            "name": "Rakie Ayola",
+            "character": "Sylvia",
+            "profile_path": "https://image.tmdb.org/t/p/w500/oaLs5ACdurV2lij6GEidn0fSrUq.jpg"
+        },
+        {
+            "name": "Robert Emms",
+            "character": "Josh",
+            "profile_path": "https://image.tmdb.org/t/p/w500/gAUB9R1MnGBgg2UbI2LOYWikCyr.jpg"
+        }
+    ],
+    "watch_providers": []
+}

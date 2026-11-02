@@ -1,0 +1,121 @@
+{
+    "tmdb_id": 1083381,
+    "media_type": "movie",
+    "slug": "backrooms",
+    "title": "Backrooms",
+    "tagline": "See how far it goes.",
+    "first_air_date": "2026-05-27",
+    "rating": "7.0",
+    "vote_count": 3976,
+    "popularity": 67.9939,
+    "genres": [
+        "Horror",
+        "Mystery",
+        "Science Fiction"
+    ],
+    "status": "Released",
+    "network": "Atomic Monster",
+    "poster": "https://image.tmdb.org/t/p/w500/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/QNE9Ihuas4duMHJYGQgAcuRtXz.jpg",
+    "overview": "A strange doorway appears in the basement of a furniture showroom.",
+    "trailer_url": "https://www.youtube.com/watch?v=5C-zBIuvGnU",
+    "cast": [
+        {
+            "name": "Chiwetel Ejiofor",
+            "character": "Clark",
+            "profile_path": "https://image.tmdb.org/t/p/w500/kq5DDnqqofoRI0t6ddtRlsJnNPT.jpg"
+        },
+        {
+            "name": "Renate Reinsve",
+            "character": "Mary",
+            "profile_path": "https://image.tmdb.org/t/p/w500/q0ljTd4fyFSJKxPgmcrKtdg3HKo.jpg"
+        },
+        {
+            "name": "Finn Bennett",
+            "character": "Bobby",
+            "profile_path": "https://image.tmdb.org/t/p/w500/p4ya77nmLlhS2cyPKUZi9zVD4Mu.jpg"
+        },
+        {
+            "name": "Lukita Maxwell",
+            "character": "Kat",
+            "profile_path": "https://image.tmdb.org/t/p/w500/g5g6XxUAtSdPfsJrSoFkl7vH51d.jpg"
+        },
+        {
+            "name": "Mark Duplass",
+            "character": "Phil",
+            "profile_path": "https://image.tmdb.org/t/p/w500/lRDf99rAfcdqt8Cqk4LsIT7XSD2.jpg"
+        },
+        {
+            "name": "Avan Jogia",
+            "character": "Naren Warne",
+            "profile_path": "https://image.tmdb.org/t/p/w500/7BX0Lg39bHlgtvWZpszTr1YjTAW.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "HBO Max Amazon Channel",
+            "logo_path": "https://image.tmdb.org/t/p/w500/64fLWeSyZ1KQZhIdvTdy4QHeWty.png",
+            "link": "https://www.themoviedb.org/movie/1083381/watch?locale=US"
+        },
+        {
+            "provider_name": "HBO Max",
+            "logo_path": "https://image.tmdb.org/t/p/w500/skypuy7SXuugIQeYg0IglmzoKaS.png",
+            "link": "https://www.themoviedb.org/movie/1083381/watch?locale=US"
+        },
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/1083381/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/1083381/watch?locale=US"
+        },
+        {
+            "provider_name": "Google Play Movies",
+            "logo_path": "https://image.tmdb.org/t/p/w500/aZRENwYILujqs0RVOZutTh0BVGV.png",
+            "link": "https://www.themoviedb.org/movie/1083381/watch?locale=US"
+        },
+        {
+            "provider_name": "YouTube",
+            "logo_path": "https://image.tmdb.org/t/p/w500/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
+            "link": "https://www.themoviedb.org/movie/1083381/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1083381/watch?locale=US"
+        },
+        {
+            "provider_name": "Plex",
+            "logo_path": "https://image.tmdb.org/t/p/w500/blAEhvx3XX8sV0fFVFk88FFjubs.png",
+            "link": "https://www.themoviedb.org/movie/1083381/watch?locale=US"
+        },
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/1083381/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/1083381/watch?locale=US"
+        },
+        {
+            "provider_name": "Google Play Movies",
+            "logo_path": "https://image.tmdb.org/t/p/w500/aZRENwYILujqs0RVOZutTh0BVGV.png",
+            "link": "https://www.themoviedb.org/movie/1083381/watch?locale=US"
+        },
+        {
+            "provider_name": "YouTube",
+            "logo_path": "https://image.tmdb.org/t/p/w500/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
+            "link": "https://www.themoviedb.org/movie/1083381/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1083381/watch?locale=US"
+        }
+    ]
+}

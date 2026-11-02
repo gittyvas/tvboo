@@ -1,0 +1,54 @@
+{
+    "tmdb_id": 1170608,
+    "media_type": "movie",
+    "slug": "dune_part_three",
+    "title": "Dune: Part Three",
+    "tagline": "The epic conclusion.",
+    "first_air_date": "2026-12-15",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 45.0757,
+    "genres": [
+        "Science Fiction",
+        "Adventure"
+    ],
+    "status": "Post Production",
+    "network": "Legendary Pictures",
+    "poster": "https://image.tmdb.org/t/p/w500/glt0v4I89rMWstDNCaFXc5SNyO1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/i5E9H7Ik0u61ylDDTbmUpTL3Yw.jpg",
+    "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
+    "trailer_url": "https://www.youtube.com/watch?v=9wcY35vOcJc",
+    "cast": [
+        {
+            "name": "Timoth\u00e9e Chalamet",
+            "character": "Paul Atreides",
+            "profile_path": "https://image.tmdb.org/t/p/w500/dFxpwRpmzpVfP1zjluH68DeQhyj.jpg"
+        },
+        {
+            "name": "Zendaya",
+            "character": "Chani",
+            "profile_path": "https://image.tmdb.org/t/p/w500/qGkBlyn1AwQpuFnRARMRwj0iHZp.jpg"
+        },
+        {
+            "name": "Jason Momoa",
+            "character": "Hayt",
+            "profile_path": "https://image.tmdb.org/t/p/w500/3troAR6QbSb6nUFMDu61YCCWLKa.jpg"
+        },
+        {
+            "name": "Florence Pugh",
+            "character": "Princess Irulan",
+            "profile_path": "https://image.tmdb.org/t/p/w500/1QfiLnofJFlOJOLCWaxyDpIN03v.jpg"
+        },
+        {
+            "name": "Rebecca Ferguson",
+            "character": "Lady Jessica",
+            "profile_path": "https://image.tmdb.org/t/p/w500/ty8ZPzaCBBlqIr5qzpOXI24iC8j.jpg"
+        },
+        {
+            "name": "Isaach de Bankol\u00e9",
+            "character": "Farok",
+            "profile_path": "https://image.tmdb.org/t/p/w500/aGjABQBgTA3tduuh54hzWx0aQ44.jpg"
+        }
+    ],
+    "watch_providers": []
+}

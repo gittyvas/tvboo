@@ -1,0 +1,53 @@
+{
+    "tmdb_id": 1408696,
+    "media_type": "movie",
+    "slug": "lorie_party_2026_au_cin\u00e9ma",
+    "title": "Lorie Party 2026 au cin\u00e9ma",
+    "tagline": "Get ready for an unforgettable night...",
+    "first_air_date": "2026-11-05",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 3.2861,
+    "genres": [
+        "Music"
+    ],
+    "status": "Released",
+    "network": "RPO",
+    "poster": "https://image.tmdb.org/t/p/w500/9CbOHt5tnmOm3yvSyv7GWDEX2oi.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/mWaSsIPJb1ZXn28gTUO00WGQ3Ck.jpg",
+    "overview": "Lorie invites you to a colorful and festive evening! Hear all her greatest hits during her Lorie Party 2025/2026 tour!",
+    "trailer_url": null,
+    "cast": [
+        {
+            "name": "Lorie Pester",
+            "character": "Self",
+            "profile_path": "https://image.tmdb.org/t/p/w500/rojuzjvu695rwALgkyL6MU7ugay.jpg"
+        },
+        {
+            "name": "Pierre-Laurent Faure",
+            "character": "Self",
+            "profile_path": "https://image.tmdb.org/t/p/w500/xm9Qfm4laDy1iJFWDbsiA54d5Cq.jpg"
+        },
+        {
+            "name": "Leslie Medina",
+            "character": "Self",
+            "profile_path": "https://image.tmdb.org/t/p/w500/ifvTzHDZAh6lVNNKxGTRBOKw2dV.jpg"
+        },
+        {
+            "name": "Bilal Hassani",
+            "character": "Self",
+            "profile_path": "https://image.tmdb.org/t/p/w500/8p6VyFMywe434OpdwshNTrvyfXZ.jpg"
+        },
+        {
+            "name": "Piche",
+            "character": "Self",
+            "profile_path": "https://image.tmdb.org/t/p/w500/4TZdbaVg06pLqlqBlUzeOGsBzAz.jpg"
+        },
+        {
+            "name": "Marina Kova",
+            "character": "Self",
+            "profile_path": null
+        }
+    ],
+    "watch_providers": []
+}

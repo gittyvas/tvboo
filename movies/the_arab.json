@@ -1,0 +1,53 @@
+{
+    "tmdb_id": 1001315,
+    "media_type": "movie",
+    "slug": "the_arab",
+    "title": "The Arab",
+    "tagline": "",
+    "first_air_date": "2026-11-04",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 3.3009,
+    "genres": [
+        "Drama"
+    ],
+    "status": "Released",
+    "network": "Hikayet Films",
+    "poster": "https://image.tmdb.org/t/p/w500/hbKC0aQgV98fdwaerC3dwAJMQdD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/693x7oMu0MhK5vAuF7ApySZgFKH.jpg",
+    "overview": "Haroun is an old bachelor who has lived in Oran for several years. A retired civil servant, he leads a reclusive life until the day he meets Kamel in a bar\u2014a journalist to whom he tells an incredible story dating back to 1942. He claims to be the brother of \u2018the Arab\u2019 killed in a story told in one of the most famous novels of the 20th century, \u2018The Stranger\u2019 by Albert Camus. An Arab with an erased name: Moussa. Through anger, assertions, details, and confidences, Haroun finally convinces the journalist to listen to his story. His confession is a cry of freedom and distress\u2014but above all, a cry of revolt: against an abusive mother, against a country that failed to achieve true independence, against a book, and against a famous French writer.",
+    "trailer_url": null,
+    "cast": [
+        {
+            "name": "Ahmed Benaissa",
+            "character": "Haroun",
+            "profile_path": "https://image.tmdb.org/t/p/w500/kf7EsImbNazOc4tHdA0EFyGLOTH.jpg"
+        },
+        {
+            "name": "Hiam Abbass",
+            "character": "Mother",
+            "profile_path": "https://image.tmdb.org/t/p/w500/2cz9mO3qhUQeGdVHzWkS2Pwx94l.jpg"
+        },
+        {
+            "name": "Dali Benssalah",
+            "character": "Haroun (young)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/3w7KkWJh6cHovVJ7katPLbfeOB3.jpg"
+        },
+        {
+            "name": "Nabil Asli",
+            "character": "Kamel",
+            "profile_path": "https://image.tmdb.org/t/p/w500/oNliw17ZT2Bn3R4mEFhzgT6NcKT.jpg"
+        },
+        {
+            "name": "Amina Ben Isma\u00efl",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/yTbjRzoZHO5q73FU9cYSh15WR9B.jpg"
+        },
+        {
+            "name": "Gr\u00e9goire Monsaingeon",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/iXkVKP3Hw1ppSFJFbqRsYzIrxB1.jpg"
+        }
+    ],
+    "watch_providers": []
+}

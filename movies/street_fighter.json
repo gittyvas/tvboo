@@ -1,0 +1,54 @@
+{
+    "tmdb_id": 1153576,
+    "media_type": "movie",
+    "slug": "street_fighter",
+    "title": "Street Fighter",
+    "tagline": "Ready. Set. Fight.",
+    "first_air_date": "2026-10-13",
+    "rating": "6.314",
+    "vote_count": 210,
+    "popularity": 88.6965,
+    "genres": [
+        "Action",
+        "Fantasy"
+    ],
+    "status": "Released",
+    "network": "Capcom",
+    "poster": "https://image.tmdb.org/t/p/w500/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg",
+    "overview": "In 1993, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists, fate, and fury. But behind this battle royale lies a deadly conspiracy that forces them to face off against each other and the demons of their past. And if they don't, it's GAME OVER!",
+    "trailer_url": "https://www.youtube.com/watch?v=YoC737pGAE8",
+    "cast": [
+        {
+            "name": "Andrew Koji",
+            "character": "Ryu",
+            "profile_path": "https://image.tmdb.org/t/p/w500/oU53nWLQ6wFHzERwSi1fD53LxZB.jpg"
+        },
+        {
+            "name": "Noah Centineo",
+            "character": "Ken Masters",
+            "profile_path": "https://image.tmdb.org/t/p/w500/p1bcst401RyxfDGykx2iQLI7CV5.jpg"
+        },
+        {
+            "name": "Callina Liang",
+            "character": "Chun-Li",
+            "profile_path": "https://image.tmdb.org/t/p/w500/blJ4iEqMs5oTiKVxUyB9Ky7kNRO.jpg"
+        },
+        {
+            "name": "David Dastmalchian",
+            "character": "M. Bison",
+            "profile_path": "https://image.tmdb.org/t/p/w500/eLafwcpL64CqzwjjSgKpO7Rv4ae.jpg"
+        },
+        {
+            "name": "Andrew Schulz",
+            "character": "Dan Hibiki",
+            "profile_path": "https://image.tmdb.org/t/p/w500/fdeYq1EraYvlYM3VmGXjIaSGoTz.jpg"
+        },
+        {
+            "name": "Joe Anoa'i",
+            "character": "Akuma",
+            "profile_path": "https://image.tmdb.org/t/p/w500/6BKc77eAUBQdL9MmgBorBc4SMdE.jpg"
+        }
+    ],
+    "watch_providers": []
+}

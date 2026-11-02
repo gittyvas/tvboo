@@ -1,0 +1,55 @@
+{
+    "tmdb_id": 1423191,
+    "media_type": "movie",
+    "slug": "resident_evil",
+    "title": "Resident Evil",
+    "tagline": "A new era of evil.",
+    "first_air_date": "2026-09-16",
+    "rating": "7.32",
+    "vote_count": 1126,
+    "popularity": 105.3982,
+    "genres": [
+        "Horror",
+        "Science Fiction",
+        "Adventure"
+    ],
+    "status": "Released",
+    "network": "Constantin Film",
+    "poster": "https://image.tmdb.org/t/p/w500/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/3icyRAqgakNcQn6aDVz9libFmBA.jpg",
+    "overview": "Medical courier Bryan unwittingly finds himself fighting for survival as one fateful, horrifying night collapses around him in chaos.",
+    "trailer_url": "https://www.youtube.com/watch?v=gprAaN6RU-U",
+    "cast": [
+        {
+            "name": "Austin Abrams",
+            "character": "Bryan",
+            "profile_path": "https://image.tmdb.org/t/p/w500/nvbJNwyhIICUFcS4lhxj9mGvL5z.jpg"
+        },
+        {
+            "name": "Paul Walter Hauser",
+            "character": "Paul",
+            "profile_path": "https://image.tmdb.org/t/p/w500/hXjjbYg1Ah8mFf5ZcaakyXzDKMx.jpg"
+        },
+        {
+            "name": "Kali Reis",
+            "character": "Maxine",
+            "profile_path": "https://image.tmdb.org/t/p/w500/ruLDXHnKA4aHEQCcFGDAJ7bLTdt.jpg"
+        },
+        {
+            "name": "Zach Cherry",
+            "character": "Carl",
+            "profile_path": "https://image.tmdb.org/t/p/w500/fT3Wv8ef0Vn0daHWAObCp2Bd4Y.jpg"
+        },
+        {
+            "name": "Johnno Wilson",
+            "character": "Officer Wilson",
+            "profile_path": "https://image.tmdb.org/t/p/w500/eZtBoBE0F7Qb9ZyNpacMOQtmWnM.jpg"
+        },
+        {
+            "name": "Shaun W. Loeser",
+            "character": "Puker",
+            "profile_path": "https://image.tmdb.org/t/p/w500/pMV7kzy7OHk4X93uRGbrdvuFgQB.jpg"
+        }
+    ],
+    "watch_providers": []
+}

@@ -1,0 +1,55 @@
+{
+    "tmdb_id": 1503762,
+    "media_type": "movie",
+    "slug": "sense_and_sensibility",
+    "title": "Sense and Sensibility",
+    "tagline": "No one knows your heart like a sister.",
+    "first_air_date": "2026-09-23",
+    "rating": "7.215",
+    "vote_count": 128,
+    "popularity": 88.471,
+    "genres": [
+        "Romance",
+        "Drama",
+        "History"
+    ],
+    "status": "Released",
+    "network": "Focus Features",
+    "poster": "https://image.tmdb.org/t/p/w500/czsyPHosFNbh4PPqXfqWu1aBXnA.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/tIcONOFK9D3F89ETK8DBS1hIwVF.jpg",
+    "overview": "A charming, witty, and deeply relatable story of love and sisterhood.",
+    "trailer_url": "https://www.youtube.com/watch?v=yKs9X_0wqMw",
+    "cast": [
+        {
+            "name": "Daisy Edgar-Jones",
+            "character": "Elinor Dashwood",
+            "profile_path": "https://image.tmdb.org/t/p/w500/4Fdc3VSoVhkkEZNx5Zpz3AU6DYz.jpg"
+        },
+        {
+            "name": "Esm\u00e9 Creed-Miles",
+            "character": "Marianne Dashwood",
+            "profile_path": "https://image.tmdb.org/t/p/w500/hmGkEC4OWsyDe7ZGVkZ7e1RjViD.jpg"
+        },
+        {
+            "name": "Caitr\u00edona Balfe",
+            "character": "Mrs. Dashwood",
+            "profile_path": "https://image.tmdb.org/t/p/w500/lerCNTjO6FQIam2lF5SXHA4dY7H.jpg"
+        },
+        {
+            "name": "Frank Dillane",
+            "character": "John Willoughby",
+            "profile_path": "https://image.tmdb.org/t/p/w500/eitUc8e045y8dDfBSm681hU471g.jpg"
+        },
+        {
+            "name": "Herbert Nordrum",
+            "character": "Colonel Brandon",
+            "profile_path": "https://image.tmdb.org/t/p/w500/wMT9o2WNfLGE4dD8Rkt2Rem4Ljt.jpg"
+        },
+        {
+            "name": "George MacKay",
+            "character": "Edward Ferrars",
+            "profile_path": "https://image.tmdb.org/t/p/w500/wnDAg1CyCbBCklQAZ9I1dj5X6QY.jpg"
+        }
+    ],
+    "watch_providers": []
+}

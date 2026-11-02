@@ -1,0 +1,54 @@
+{
+    "tmdb_id": 1422041,
+    "media_type": "movie",
+    "slug": "la_bola_negra",
+    "title": "LA BOLA NEGRA",
+    "tagline": "Love leaves a legacy.",
+    "first_air_date": "2026-09-25",
+    "rating": "8.087",
+    "vote_count": 166,
+    "popularity": 115.376,
+    "genres": [
+        "Drama",
+        "War"
+    ],
+    "status": "Released",
+    "network": "Movistar Plus",
+    "poster": "https://image.tmdb.org/t/p/w500/jT5SR5qc9KvVg7HUEmjMWEUYMce.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
+    "overview": "The intertwined lives of three men in three different eras, three lives intimately linked by sexuality and desire, pain, and legacy.",
+    "trailer_url": "https://www.youtube.com/watch?v=lBVxKt0gKDY",
+    "cast": [
+        {
+            "name": "Guitarricadelafuente",
+            "character": "Sebasti\u00e1n",
+            "profile_path": "https://image.tmdb.org/t/p/w500/A2Jfhf7lRBmMlQPGFZwEddT8MdS.jpg"
+        },
+        {
+            "name": "Miguel Bernardeau",
+            "character": "Rafael",
+            "profile_path": "https://image.tmdb.org/t/p/w500/aPyvMBnGaTeWkMStdHvdiiWxpBQ.jpg"
+        },
+        {
+            "name": "Carlos Gonz\u00e1lez",
+            "character": "Alberto",
+            "profile_path": "https://image.tmdb.org/t/p/w500/bPag2U3ei3Wb2KfSXEQGDY5a8pi.jpg"
+        },
+        {
+            "name": "Camilo Joaqu\u00edn Villarruel",
+            "character": "Carlos",
+            "profile_path": "https://image.tmdb.org/t/p/w500/vniYP6wozDkntBQImES2kJrBSOW.jpg"
+        },
+        {
+            "name": "Lola Due\u00f1as",
+            "character": "Teresa",
+            "profile_path": "https://image.tmdb.org/t/p/w500/bZgXKlGkLgjvL3qU2Iq2l2zsKo7.jpg"
+        },
+        {
+            "name": "Pen\u00e9lope Cruz",
+            "character": "Nen\u00e9 Romero",
+            "profile_path": "https://image.tmdb.org/t/p/w500/n5SFgmvJSENQt8poE4qYacUnKOi.jpg"
+        }
+    ],
+    "watch_providers": []
+}

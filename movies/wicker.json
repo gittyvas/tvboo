@@ -1,0 +1,61 @@
+{
+    "tmdb_id": 1195803,
+    "media_type": "movie",
+    "slug": "wicker",
+    "title": "Wicker",
+    "tagline": "Marriage material.",
+    "first_air_date": "2026-10-21",
+    "rating": "7.5",
+    "vote_count": 22,
+    "popularity": 65.8487,
+    "genres": [
+        "Romance",
+        "Fantasy",
+        "Comedy"
+    ],
+    "status": "Released",
+    "network": "Topic Studios",
+    "poster": "https://image.tmdb.org/t/p/w500/6FcBZOKvyrLCKGCyBG0ySCR4okt.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+    "overview": "On the outskirts of a village by the sea, lives a Fisherwoman; smelly, single and perpetually ridiculed. One day, fed up with her stuffy, small-minded neighbours, she commissions herself a husband to be made from wicker. In an otherwise conservative town, this unconventional romance sparks outrage, jealousy and chaos.",
+    "trailer_url": "https://www.youtube.com/watch?v=Q0040HMQEME",
+    "cast": [
+        {
+            "name": "Olivia Colman",
+            "character": "The Fisherwoman",
+            "profile_path": "https://image.tmdb.org/t/p/w500/lawJUdbLb1YW0niaYjiVGR9IBG8.jpg"
+        },
+        {
+            "name": "Alexander Skarsg\u00e5rd",
+            "character": "The Wicker Husband",
+            "profile_path": "https://image.tmdb.org/t/p/w500/6VNNddrSrIVgdzhXr4Zg89gmOzY.jpg"
+        },
+        {
+            "name": "Peter Dinklage",
+            "character": "The Basketmaker",
+            "profile_path": "https://image.tmdb.org/t/p/w500/9CAd7wr8QZyIN0E7nm8v1B6WkGn.jpg"
+        },
+        {
+            "name": "Elizabeth Debicki",
+            "character": "The Tailor\u2019s Wife",
+            "profile_path": "https://image.tmdb.org/t/p/w500/nTTnQVTn13Ve4ifjRY9v8kVc99w.jpg"
+        },
+        {
+            "name": "Marli Siu",
+            "character": "The Bottlewasher\u2019s Wife",
+            "profile_path": "https://image.tmdb.org/t/p/w500/pNi3TfnnJuDz25m93Nr2AKIYV4R.jpg"
+        },
+        {
+            "name": "Nabhaan Rizwan",
+            "character": "The Tailor",
+            "profile_path": "https://image.tmdb.org/t/p/w500/ljDpNmRnx9Mxe6DZbOMVZlGVXAN.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1195803/watch?locale=US"
+        }
+    ]
+}

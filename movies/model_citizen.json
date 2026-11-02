@@ -1,0 +1,40 @@
+{
+    "tmdb_id": 1792170,
+    "media_type": "movie",
+    "slug": "model_citizen",
+    "title": "Model Citizen",
+    "tagline": "",
+    "first_air_date": "2026-11-03",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 3.7674,
+    "genres": [
+        "Crime",
+        "Science Fiction",
+        "Thriller"
+    ],
+    "status": "Released",
+    "network": "Red Sea Media",
+    "poster": "https://image.tmdb.org/t/p/w500/duuH76uKtbB2nFm3esFztPkVAMt.jpg",
+    "backdrop": null,
+    "overview": "Former police officer Steven Bay is haunted by amnesia and fragments of a life he can no longer remember. When seeking treatment, Steven finds himself trapped in an increasingly unsettling world of constant surveillance, mounting suspicion, and unexplained instincts that suggest someone is controlling far more than his recovery.",
+    "trailer_url": "https://www.youtube.com/watch?v=VczwWXoMKL0",
+    "cast": [
+        {
+            "name": "Aaron Eckhart",
+            "character": "Steven Bay",
+            "profile_path": "https://image.tmdb.org/t/p/w500/u5JjnRMr9zKEVvOP7k3F6gdcwT6.jpg"
+        },
+        {
+            "name": "Emmanuelle Chriqui",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/5ll30bFOYMlIucGNrqWQ4bAA14U.jpg"
+        },
+        {
+            "name": "Dave Alaimo",
+            "character": "Gangster",
+            "profile_path": null
+        }
+    ],
+    "watch_providers": []
+}

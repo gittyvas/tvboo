@@ -1,0 +1,53 @@
+{
+    "tmdb_id": 1706729,
+    "media_type": "movie",
+    "slug": "the_guest",
+    "title": "The Guest",
+    "tagline": "",
+    "first_air_date": "2026-11-05",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 3.8738,
+    "genres": [
+        "Drama"
+    ],
+    "status": "Released",
+    "network": "Monolit Film",
+    "poster": "https://image.tmdb.org/t/p/w500/Agpqn5YurARQJiwZlnLLO29bwQn.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/q9CS2b6gwZ4LMjVNnelX5dMh7Je.jpg",
+    "overview": "At a luxury seaside hotel, Karl and Emilie are preparing for their son\u2019s naming party, when Karl\u2019s estranged mother, Vibeke, suddenly turns up uninvited. Karl want\u2019s her gone, but his sister, Rikke, insists there won\u2019t be any issues. Over one tense weekend, old patterns and buried wounds surface in front of in-laws and guests \u2014 until the celebration fractures into a collision.",
+    "trailer_url": "https://www.youtube.com/watch?v=4gPUJlY1l7E",
+    "cast": [
+        {
+            "name": "Trine Dyrholm",
+            "character": "Vibeke",
+            "profile_path": "https://image.tmdb.org/t/p/w500/cjw6eAdD01ICRs8Y2Fa8qBBSzEJ.jpg"
+        },
+        {
+            "name": "Simon Bennebjerg",
+            "character": "Karl",
+            "profile_path": "https://image.tmdb.org/t/p/w500/idjq71III6dK9WCi1aarDqxN072.jpg"
+        },
+        {
+            "name": "Josephine Park",
+            "character": "Rikke",
+            "profile_path": "https://image.tmdb.org/t/p/w500/66GcXJ1Mb1GTpaUwSH0bQFsGiJJ.jpg"
+        },
+        {
+            "name": "Mette Klakstein",
+            "character": "Emilie",
+            "profile_path": null
+        },
+        {
+            "name": "Peter Gantzler",
+            "character": "Frank",
+            "profile_path": "https://image.tmdb.org/t/p/w500/1oL9VT7YLfaly3BwAcKj5xquoCo.jpg"
+        },
+        {
+            "name": "Petrine Agger",
+            "character": "Kirsten",
+            "profile_path": "https://image.tmdb.org/t/p/w500/wjzYZU9Gxj979MYeGpjwTZxGUzf.jpg"
+        }
+    ],
+    "watch_providers": []
+}

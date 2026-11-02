@@ -1,0 +1,54 @@
+{
+    "tmdb_id": 1447206,
+    "media_type": "movie",
+    "slug": "ghost_song",
+    "title": "Ghost Song",
+    "tagline": "",
+    "first_air_date": "2026-11-05",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 3.2037,
+    "genres": [
+        "Romance",
+        "Fantasy"
+    ],
+    "status": "Released",
+    "network": "Bombero International",
+    "poster": "https://image.tmdb.org/t/p/w500/iSNeCZoujlT9Mh0boHS9GyR6fEX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/4M9osi8FJTc7dPGLFQlPPlGAVED.jpg",
+    "overview": "Farasha and Faris are 20 when they meet at a graduation party \u2013 one glance that changes everything. But Farasha dies that very same night. Refusing to be separated from him, she discovers a way to cross the boundary between worlds: for 40 nights, and 40 nights only, she can meet Faris in his dreams. And so their love continues to grow, until the very last night.",
+    "trailer_url": "https://www.youtube.com/watch?v=p5e3nN2CTd0",
+    "cast": [
+        {
+            "name": "Mariam Dawoud",
+            "character": "Farasha",
+            "profile_path": "https://image.tmdb.org/t/p/w500/oC5Rw9FpdTJCMnszHlkf5mmYGPo.jpg"
+        },
+        {
+            "name": "Eren M. G\u00fcvercin",
+            "character": "Faris",
+            "profile_path": "https://image.tmdb.org/t/p/w500/9fc6NMguf4MJAvDrvXC4tKTDdiD.jpg"
+        },
+        {
+            "name": "Carlotta von Falkenhayn",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/j8UP1U2yoaCYwYHtnujc17Tp2RY.jpg"
+        },
+        {
+            "name": "Gabriel Amorin",
+            "character": "",
+            "profile_path": null
+        },
+        {
+            "name": "Anna Bederke",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/55kFW09S3KnB3c2L1P8iGLaLDEY.jpg"
+        },
+        {
+            "name": "David Sch\u00fctter",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/eCyL55l0fb9tccOQfdCGCd7XKAf.jpg"
+        }
+    ],
+    "watch_providers": []
+}

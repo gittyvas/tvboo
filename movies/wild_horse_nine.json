@@ -1,0 +1,55 @@
+{
+    "tmdb_id": 891621,
+    "media_type": "movie",
+    "slug": "wild_horse_nine",
+    "title": "Wild Horse Nine",
+    "tagline": "Sometimes you've got to do a terrible thing for the greater good.",
+    "first_air_date": "2026-10-30",
+    "rating": "8.909",
+    "vote_count": 11,
+    "popularity": 19.236,
+    "genres": [
+        "Comedy",
+        "Crime",
+        "Thriller"
+    ],
+    "status": "Released",
+    "network": "Searchlight Pictures",
+    "poster": "https://image.tmdb.org/t/p/w500/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/b17UWf3LqHgKolQkXckne32qv0.jpg",
+    "overview": "Shortly before the 1973 Chilean coup, CIA agents Chris and Lee are dispatched from Santiago to Easter Island by their bureau chief, MJ. Amongst the Island's iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris's newfound bond with a pair of rebellious students threatens to send everyone\u2019s trip to this remote paradise sideways.",
+    "trailer_url": "https://www.youtube.com/watch?v=lInzOLTvx7g",
+    "cast": [
+        {
+            "name": "John Malkovich",
+            "character": "Chris",
+            "profile_path": "https://image.tmdb.org/t/p/w500/7GoOdGNc4ra1L0F5nJTkmIB37iu.jpg"
+        },
+        {
+            "name": "Sam Rockwell",
+            "character": "Lee",
+            "profile_path": "https://image.tmdb.org/t/p/w500/afYhNpLwpa65Yy0Q0g00FNFhzx5.jpg"
+        },
+        {
+            "name": "Steve Buscemi",
+            "character": "MJ",
+            "profile_path": "https://image.tmdb.org/t/p/w500/n0pZumkrcZrAPMoPq684RhYnjPV.jpg"
+        },
+        {
+            "name": "Mariana di Girolamo",
+            "character": "Monica",
+            "profile_path": "https://image.tmdb.org/t/p/w500/niEEPw3RezaA0SvMXbaZXl3rqvD.jpg"
+        },
+        {
+            "name": "Ail\u00edn Salas",
+            "character": "Alicia",
+            "profile_path": "https://image.tmdb.org/t/p/w500/bZWFFUdjs8oMX4sVfCaKi17aFrd.jpg"
+        },
+        {
+            "name": "Tom Waits",
+            "character": "Jim",
+            "profile_path": "https://image.tmdb.org/t/p/w500/kmPOnRmxUgL0rjIUF98uToQrQKB.jpg"
+        }
+    ],
+    "watch_providers": []
+}

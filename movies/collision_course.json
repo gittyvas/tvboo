@@ -1,0 +1,66 @@
+{
+    "tmdb_id": 1571955,
+    "media_type": "movie",
+    "slug": "collision_course",
+    "title": "Collision Course",
+    "tagline": "",
+    "first_air_date": "2026-10-30",
+    "rating": "6.871",
+    "vote_count": 35,
+    "popularity": 153.1008,
+    "genres": [
+        "Thriller",
+        "Drama",
+        "Crime"
+    ],
+    "status": "Released",
+    "network": "Bamb\u00fa Producciones",
+    "poster": "https://image.tmdb.org/t/p/w500/s2eAK0uiODjlNUSIiOBwdp3at2u.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/uI3kWI7kGW5E0F8WduewgQYPt34.jpg",
+    "overview": "Spain, 2013. After robbing a bank, a getaway crash reveals the hidden side of each thief, exposing betrayals and lies that began long before the heist.",
+    "trailer_url": "https://www.youtube.com/watch?v=8hVLhaK619k",
+    "cast": [
+        {
+            "name": "Laia Costa",
+            "character": "Carla Menc\u00eda",
+            "profile_path": "https://image.tmdb.org/t/p/w500/kSbdpHWLlfzvOfZKJ0dgP0ieVL6.jpg"
+        },
+        {
+            "name": "Karra Elejalde",
+            "character": "Pedro",
+            "profile_path": "https://image.tmdb.org/t/p/w500/kHODqgc2c7RaZz9Sp7cedgadvzG.jpg"
+        },
+        {
+            "name": "Luis Zahera",
+            "character": "Ernesto",
+            "profile_path": "https://image.tmdb.org/t/p/w500/ozfRIrvu8i93RJAaeWbaCLKAlPq.jpg"
+        },
+        {
+            "name": "Tamar Novas",
+            "character": "Tom\u00e1s",
+            "profile_path": "https://image.tmdb.org/t/p/w500/3MpjB6lxeTUA9EunaV4kAyvOvIG.jpg"
+        },
+        {
+            "name": "\u00c1lvaro Cervantes",
+            "character": "Ra\u00fal",
+            "profile_path": "https://image.tmdb.org/t/p/w500/6RAiI4SXIMxLRM1RejLJzMPK7wa.jpg"
+        },
+        {
+            "name": "Llu\u00eds Homar",
+            "character": "Luis",
+            "profile_path": "https://image.tmdb.org/t/p/w500/p1AFBzyZRbHzA6S8q3RWw0YXoAf.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "Netflix",
+            "logo_path": "https://image.tmdb.org/t/p/w500/rK1KljqmbvO9HQa1PBFLILWah72.png",
+            "link": "https://www.themoviedb.org/movie/1571955/watch?locale=US"
+        },
+        {
+            "provider_name": "Netflix Standard with Ads",
+            "logo_path": "https://image.tmdb.org/t/p/w500/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+            "link": "https://www.themoviedb.org/movie/1571955/watch?locale=US"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "tmdb_id": 1058424,
+    "media_type": "movie",
+    "slug": "hope",
+    "title": "Hope",
+    "tagline": "Is this how it ends?",
+    "first_air_date": "2026-07-15",
+    "rating": "6.797",
+    "vote_count": 438,
+    "popularity": 472.2096,
+    "genres": [
+        "Science Fiction",
+        "Mystery",
+        "Action"
+    ],
+    "status": "Released",
+    "network": "Forged Films",
+    "poster": "https://image.tmdb.org/t/p/w500/6VY1ZKgpsc8CfGsQcCGiYEgHdH0.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/j96rurZqmBjyY37Fncl3IB0qJNe.jpg",
+    "overview": "In the remote South Korean village of Hope Harbor, police chief Bum-seok and officer Sung-ae are called to investigate a mysterious creature wreaking havoc on the community. But all is not as it seems, and perceptions can be misleading. What begins as ignorance plants the seed of disaster, escalating through human conflict into a tragedy of cosmic proportions.",
+    "trailer_url": "https://www.youtube.com/watch?v=JNJ6luyhR2I",
+    "cast": [
+        {
+            "name": "Hwang Jung-min",
+            "character": "Go Bum-seok",
+            "profile_path": "https://image.tmdb.org/t/p/w500/hKF1uh0iEfuZlBE79CXPw415qyn.jpg"
+        },
+        {
+            "name": "Zo In-sung",
+            "character": "Go Sung-ki",
+            "profile_path": "https://image.tmdb.org/t/p/w500/69gbyFI0ET0l0dyjKChlx1Zx269.jpg"
+        },
+        {
+            "name": "Hoyeon",
+            "character": "Lim Sung-ae",
+            "profile_path": "https://image.tmdb.org/t/p/w500/AfQFFyGeG9xOQnEJb1Ash1RomkP.jpg"
+        },
+        {
+            "name": "Alicia Vikander",
+            "character": "J'aur",
+            "profile_path": "https://image.tmdb.org/t/p/w500/lZu8qiTwiQIN96cuptgqMCCaUtg.jpg"
+        },
+        {
+            "name": "Michael Fassbender",
+            "character": "Ma'veyyo",
+            "profile_path": "https://image.tmdb.org/t/p/w500/xvbnUiB2ZBR3QIt595OzNy657Vw.jpg"
+        },
+        {
+            "name": "Taylor Russell",
+            "character": "Ai'dovor",
+            "profile_path": "https://image.tmdb.org/t/p/w500/3kW1SvpzyOPPZHxbz7cgR7ilmtQ.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/1058424/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/1058424/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1058424/watch?locale=US"
+        },
+        {
+            "provider_name": "Plex",
+            "logo_path": "https://image.tmdb.org/t/p/w500/blAEhvx3XX8sV0fFVFk88FFjubs.png",
+            "link": "https://www.themoviedb.org/movie/1058424/watch?locale=US"
+        },
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/1058424/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/1058424/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1058424/watch?locale=US"
+        }
+    ]
+}

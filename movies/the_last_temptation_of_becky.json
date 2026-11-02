@@ -1,0 +1,55 @@
+{
+    "tmdb_id": 1642568,
+    "media_type": "movie",
+    "slug": "the_last_temptation_of_becky",
+    "title": "The Last Temptation of Becky",
+    "tagline": "",
+    "first_air_date": "2026-11-04",
+    "rating": "10.0",
+    "vote_count": 1,
+    "popularity": 4.4225,
+    "genres": [
+        "Action",
+        "Horror",
+        "Thriller"
+    ],
+    "status": "Released",
+    "network": "Northern Ireland Screen",
+    "poster": "https://image.tmdb.org/t/p/w500/dS2EUbnMyfv1bWsGa6GBgzwp5cF.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/9o9ITSmTuI3Lof4ayV1dQUEez4k.jpg",
+    "overview": "Now working as a field agent for the CIA, Becky is sent undercover to Poland to infiltrate a family of innkeepers running a tourist venture at The Wolf's Lair, Hitler's WWII bunker. After learning that the father, Wilhelm Reuss, is on a mission to bring about the Fourth Reich, Becky takes matters into her own hands.",
+    "trailer_url": "https://www.youtube.com/watch?v=aQrxHLuqJCk",
+    "cast": [
+        {
+            "name": "Lulu Wilson",
+            "character": "Becky",
+            "profile_path": "https://image.tmdb.org/t/p/w500/7qqMBuvdZoayPVmVZKHBLqUgKiJ.jpg"
+        },
+        {
+            "name": "Neil Patrick Harris",
+            "character": "General Wilhelm Reuss",
+            "profile_path": "https://image.tmdb.org/t/p/w500/r2twLWLwDpKJ7JyhWsD1YsL7rJV.jpg"
+        },
+        {
+            "name": "James Urbaniak",
+            "character": "Dr. Friedrich Metzger",
+            "profile_path": "https://image.tmdb.org/t/p/w500/7KUK2x6OI5XdPX5xrYAo9hxL49Z.jpg"
+        },
+        {
+            "name": "Kate Siegel",
+            "character": "Agent Kate Montana",
+            "profile_path": "https://image.tmdb.org/t/p/w500/jJJGmVKvMFHMJEwyfiHgxXEFePO.jpg"
+        },
+        {
+            "name": "Desmond Eastwood",
+            "character": "Agent Jeffrey Fox",
+            "profile_path": "https://image.tmdb.org/t/p/w500/6C4AewNqq7gR7u1Odd4j7VKBtSI.jpg"
+        },
+        {
+            "name": "Brandon Flynn",
+            "character": "Jordan Rigby",
+            "profile_path": "https://image.tmdb.org/t/p/w500/2fir5bwu0nNB4FiQZYY5J9tWZqC.jpg"
+        }
+    ],
+    "watch_providers": []
+}

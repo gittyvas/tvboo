@@ -1,0 +1,57 @@
+{
+    "tmdb_id": 1538497,
+    "media_type": "movie",
+    "slug": "hexed",
+    "title": "Hexed",
+    "tagline": "Something is happening to Billie...",
+    "first_air_date": "2026-11-25",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 21.7169,
+    "genres": [
+        "Adventure",
+        "Animation",
+        "Family",
+        "Fantasy",
+        "Comedy"
+    ],
+    "status": "Post Production",
+    "network": "Walt Disney Animation Studios",
+    "poster": "https://image.tmdb.org/t/p/w500/3zxrelHqoPJwOP4oj4Wq1cNOUdG.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/wZ9Me7OndzgBOEAa8nSBNPu3Sl4.jpg",
+    "overview": "An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover family mysteries that could change the world of witches forever.",
+    "trailer_url": "https://www.youtube.com/watch?v=lQ9Kx_tCbNY",
+    "cast": [
+        {
+            "name": "Hailee Steinfeld",
+            "character": "Billie Doe (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/qDInsG0cxWNxS1X4t59TBZ5S6x5.jpg"
+        },
+        {
+            "name": "Rashida Jones",
+            "character": "Alice Doe (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/cgWGm9eYCretBWeljPVtpRV7n6V.jpg"
+        },
+        {
+            "name": "Jodie Foster",
+            "character": "Queen Celeste (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/5emVgsLFlU6SmeBIFsF2Y7aqwtG.jpg"
+        },
+        {
+            "name": "Walton Goggins",
+            "character": "Beef Roger Crummchuk (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/5lcVMJbWrNDFiWa1WxK4oR8zwev.jpg"
+        },
+        {
+            "name": "Tracey Ullman",
+            "character": "Ms. Quill (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/cmug3uUXKBo9fhCcJk3pkgt1nvM.jpg"
+        },
+        {
+            "name": "Stephen Fry",
+            "character": "Elias Quire (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/dH7GuUZ8QPM9RN99ak9KKOkSkdS.jpg"
+        }
+    ],
+    "watch_providers": []
+}

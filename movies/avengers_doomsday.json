@@ -1,0 +1,55 @@
+{
+    "tmdb_id": 1003596,
+    "media_type": "movie",
+    "slug": "avengers_doomsday",
+    "title": "Avengers: Doomsday",
+    "tagline": "Meet your doom.",
+    "first_air_date": "2026-12-16",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 117.9732,
+    "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+    ],
+    "status": "Post Production",
+    "network": "Marvel Studios",
+    "poster": "https://image.tmdb.org/t/p/w500/jzPwsojjFStf5lR5Nm07w2hH56G.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/rObL4of4eFA8yWaN9pRFo9aOVNi.jpg",
+    "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
+    "trailer_url": "https://www.youtube.com/watch?v=UfNu7pcR0e8",
+    "cast": [
+        {
+            "name": "Robert Downey Jr.",
+            "character": "Victor von Doom  / Doctor Doom",
+            "profile_path": "https://image.tmdb.org/t/p/w500/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg"
+        },
+        {
+            "name": "Chris Evans",
+            "character": "Steve Rogers",
+            "profile_path": "https://image.tmdb.org/t/p/w500/3bOGNsHlrswhyW79uvIHH1V43JI.jpg"
+        },
+        {
+            "name": "Chris Hemsworth",
+            "character": "Thor",
+            "profile_path": "https://image.tmdb.org/t/p/w500/piQGdoIQOF3C1EI5cbYZLAW1gfj.jpg"
+        },
+        {
+            "name": "Pedro Pascal",
+            "character": "Reed Richards / Mister Fantastic",
+            "profile_path": "https://image.tmdb.org/t/p/w500/oKcMbVn0NJTNzQt0ClKKvVXkm60.jpg"
+        },
+        {
+            "name": "Paul Rudd",
+            "character": "Scott Lang / Ant-Man",
+            "profile_path": "https://image.tmdb.org/t/p/w500/6jtwNOLKy0LdsRAKwZqgYMAfd5n.jpg"
+        },
+        {
+            "name": "Anthony Mackie",
+            "character": "Sam Wilson / Captain America",
+            "profile_path": "https://image.tmdb.org/t/p/w500/vecvTm7SimizluJkyIwBxeLbvRm.jpg"
+        }
+    ],
+    "watch_providers": []
+}

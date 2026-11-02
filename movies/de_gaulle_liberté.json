@@ -1,0 +1,55 @@
+{
+    "tmdb_id": 1165369,
+    "media_type": "movie",
+    "slug": "de_gaulle_libert\u00e9",
+    "title": "De Gaulle: Libert\u00e9",
+    "tagline": "",
+    "first_air_date": "2026-06-26",
+    "rating": "7.8",
+    "vote_count": 217,
+    "popularity": 23.9768,
+    "genres": [
+        "History",
+        "Drama",
+        "War"
+    ],
+    "status": "Released",
+    "network": "Path\u00e9",
+    "poster": "https://image.tmdb.org/t/p/w500/297x0HIqSCp19pN9wlduK9PONRv.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/gU93hJIAVsx088tBVumH3Z0jPVM.jpg",
+    "overview": "Part two of a two-part biopic following French army officer Charles De Gaulle's life and political commitment between 1940 and 1945, and trace his development towards a political career.",
+    "trailer_url": "https://www.youtube.com/watch?v=J6MRNchmZkY",
+    "cast": [
+        {
+            "name": "Simon Abkarian",
+            "character": "Charles de Gaulle",
+            "profile_path": "https://image.tmdb.org/t/p/w500/rpw1AujIl0vJD6cyMDo2ykJ8rZA.jpg"
+        },
+        {
+            "name": "Niels Schneider",
+            "character": "G\u00e9n\u00e9ral Leclerc",
+            "profile_path": "https://image.tmdb.org/t/p/w500/eG7go6nzgnb791avzYoN7GSqPd6.jpg"
+        },
+        {
+            "name": "Thierry Lhermitte",
+            "character": "Henri Giraud",
+            "profile_path": "https://image.tmdb.org/t/p/w500/50kQVqmD1XnGRlgTPsVRhECaRae.jpg"
+        },
+        {
+            "name": "Karim Leklou",
+            "character": "Blazej",
+            "profile_path": "https://image.tmdb.org/t/p/w500/bgOpQ2WAwvxLFoRYFsPRAT0esAh.jpg"
+        },
+        {
+            "name": "Anamaria Vartolomei",
+            "character": "Livia",
+            "profile_path": "https://image.tmdb.org/t/p/w500/jRU3453OyqirChIl2EEevhliAjq.jpg"
+        },
+        {
+            "name": "Simon Russell Beale",
+            "character": "Winston Churchill",
+            "profile_path": "https://image.tmdb.org/t/p/w500/uw0ngaqgT8qXwJqVr353cx1mEdB.jpg"
+        }
+    ],
+    "watch_providers": []
+}

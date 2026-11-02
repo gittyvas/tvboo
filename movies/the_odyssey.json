@@ -1,0 +1,55 @@
+{
+    "tmdb_id": 1368337,
+    "media_type": "movie",
+    "slug": "the_odyssey",
+    "title": "The Odyssey",
+    "tagline": "Defy the gods.",
+    "first_air_date": "2026-07-15",
+    "rating": "8.017",
+    "vote_count": 4324,
+    "popularity": 214.2032,
+    "genres": [
+        "Adventure",
+        "Action",
+        "Fantasy"
+    ],
+    "status": "Released",
+    "network": "Universal Pictures",
+    "poster": "https://image.tmdb.org/t/p/w500/9EJDqzAQ0HoNvMDkOQuirXt1RCg.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/iDiTY1wA35YWzTmXLTtqaxtN6tc.jpg",
+    "overview": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
+    "trailer_url": "https://www.youtube.com/watch?v=2mfqNJTC1QU",
+    "cast": [
+        {
+            "name": "Matt Damon",
+            "character": "Odysseus",
+            "profile_path": "https://image.tmdb.org/t/p/w500/aCvBXTAR9B1qRjIRzMBYhhbm1fR.jpg"
+        },
+        {
+            "name": "Tom Holland",
+            "character": "Telemachus",
+            "profile_path": "https://image.tmdb.org/t/p/w500/5OK84Wn1bIEIThFKcVoaN087mLj.jpg"
+        },
+        {
+            "name": "Anne Hathaway",
+            "character": "Penelope",
+            "profile_path": "https://image.tmdb.org/t/p/w500/s6tflSD20MGz04ZR2R1lZvhmC4Y.jpg"
+        },
+        {
+            "name": "Robert Pattinson",
+            "character": "Antinous",
+            "profile_path": "https://image.tmdb.org/t/p/w500/3qZ09UE7lN6AtorfXFRYpEtSY93.jpg"
+        },
+        {
+            "name": "Himesh Patel",
+            "character": "Eurylochus",
+            "profile_path": "https://image.tmdb.org/t/p/w500/icqsXLmU0FxBGTv63kkA0GcrecO.jpg"
+        },
+        {
+            "name": "Charlize Theron",
+            "character": "Calypso",
+            "profile_path": "https://image.tmdb.org/t/p/w500/gd7ShD0yt4bsR2STeQ19KQ6hvXL.jpg"
+        }
+    ],
+    "watch_providers": []
+}

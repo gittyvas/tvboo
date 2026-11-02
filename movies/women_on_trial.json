@@ -1,0 +1,54 @@
+{
+    "tmdb_id": 1003494,
+    "media_type": "movie",
+    "slug": "women_on_trial",
+    "title": "Women on Trial",
+    "tagline": "1972 - The trial that changed everything.",
+    "first_air_date": "2026-11-04",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 4.5028,
+    "genres": [
+        "History",
+        "Drama"
+    ],
+    "status": "Released",
+    "network": "Quad Films",
+    "poster": "https://image.tmdb.org/t/p/w500/fArOu0NgRfth0zH5YqRu1os478v.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/rIxB1b3nBfjxP0nHrWyjJArcVwa.jpg",
+    "overview": "1972. A landmark trial shakes France as young Marie-Claire is prosecuted for having an illegal abortion with the help of her mother and two other defendants. In a courtroom governed by men, the verdict seems inevitable: prison for the women, while the rapist goes unpunished. Their last hope lies with Gis\u00e8le Halimi, a fearless lawyer known for openly challenging patriarchy and confronting the system that condemns victims and lets perpetrators walk free. Alongside the accused, Gis\u00e8le will not only change their fate, but, against all odds, transform the condition of women forever",
+    "trailer_url": "https://www.youtube.com/watch?v=CGAyM8h1xdI",
+    "cast": [
+        {
+            "name": "Charlotte Gainsbourg",
+            "character": "Gis\u00e8le Halimi",
+            "profile_path": "https://image.tmdb.org/t/p/w500/54RgTfNxhiTsaZfmCXWYLeZgMlC.jpg"
+        },
+        {
+            "name": "C\u00e9cile de France",
+            "character": "Mich\u00e8le Chevalier",
+            "profile_path": "https://image.tmdb.org/t/p/w500/8nzL3XON3VfUevvP2KvYbnbF5sT.jpg"
+        },
+        {
+            "name": "Gr\u00e9gory Gadebois",
+            "character": "Claude Faux",
+            "profile_path": "https://image.tmdb.org/t/p/w500/AvF337m0eGL9JLPEgG6Dy1T2Zu4.jpg"
+        },
+        {
+            "name": "Sa\u00fcl Benchetrit",
+            "character": "Marie-Claire Chevalier",
+            "profile_path": "https://image.tmdb.org/t/p/w500/r6OXIvfKBpCUcn2S5OCfSEInnHi.jpg"
+        },
+        {
+            "name": "Sarah Suco",
+            "character": "Lucette Duboucheix",
+            "profile_path": "https://image.tmdb.org/t/p/w500/9CeYVvo7hvB3eCsTJO6RXuDQE60.jpg"
+        },
+        {
+            "name": "Florence Loiret Caille",
+            "character": "Micheline Bambuck",
+            "profile_path": "https://image.tmdb.org/t/p/w500/lNIVTZfgOvxbPIo4YgcXfepHKqF.jpg"
+        }
+    ],
+    "watch_providers": []
+}

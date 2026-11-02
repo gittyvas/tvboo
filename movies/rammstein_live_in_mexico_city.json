@@ -1,0 +1,54 @@
+{
+    "tmdb_id": 1753205,
+    "media_type": "movie",
+    "slug": "rammstein_live_in_mexico_city",
+    "title": "Rammstein \u2013 Live in Mexico City",
+    "tagline": "",
+    "first_air_date": "2026-11-04",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 3.6251,
+    "genres": [
+        "Documentary",
+        "Music"
+    ],
+    "status": "Released",
+    "network": "SiFi Productions",
+    "poster": "https://image.tmdb.org/t/p/w500/n1j1JrEFcIn4RUh8RmA8Ihj1NXN.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/3lmCHJoL2qtohUPEZLC5PdwA558.jpg",
+    "overview": "A three-night compilation that captures their spectacular October 2022 shows at the Foro Sol Stadium in Mexico City during the Stadium Tour era. This live has become the band's most massive and longest one of their entire career.",
+    "trailer_url": null,
+    "cast": [
+        {
+            "name": "Till Lindemann",
+            "character": "Self",
+            "profile_path": "https://image.tmdb.org/t/p/w500/nQyZXVx3kfFjK5uf6pvsq3CtIVC.jpg"
+        },
+        {
+            "name": "Richard Kruspe",
+            "character": "Self",
+            "profile_path": "https://image.tmdb.org/t/p/w500/uXk9mjgb4mqCoGWXQPX4cIm1Dq4.jpg"
+        },
+        {
+            "name": "Christoph Schneider",
+            "character": "Self",
+            "profile_path": "https://image.tmdb.org/t/p/w500/vo4BBEO4SbaaPBSv199oXAWid8Y.jpg"
+        },
+        {
+            "name": "Paul Landers",
+            "character": "Self",
+            "profile_path": "https://image.tmdb.org/t/p/w500/hSgkxg65eAVEWauIjbImY6CKwqL.jpg"
+        },
+        {
+            "name": "Oliver Riedel",
+            "character": "Self",
+            "profile_path": "https://image.tmdb.org/t/p/w500/8vLuztIqxATiJLdTeD2WXmjN4tU.jpg"
+        },
+        {
+            "name": "Christian Lorenz",
+            "character": "Self",
+            "profile_path": "https://image.tmdb.org/t/p/w500/eVFwuhuOg2bejR5RLEqZb8aM9WR.jpg"
+        }
+    ],
+    "watch_providers": []
+}

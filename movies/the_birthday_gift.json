@@ -1,0 +1,64 @@
+{
+    "tmdb_id": 1789549,
+    "media_type": "movie",
+    "slug": "the_birthday_gift",
+    "title": "The Birthday\u200b Gift\u200b",
+    "tagline": "",
+    "first_air_date": "2026-10-30",
+    "rating": "7.056",
+    "vote_count": 9,
+    "popularity": 50.1073,
+    "genres": [
+        "Comedy"
+    ],
+    "status": "Released",
+    "network": "UFA Fiction",
+    "poster": "https://image.tmdb.org/t/p/w500/jqGFILLsEDwsLteNDQextojsYFV.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/eBtITrrdFo1EG7t6TSG5U5c4P2e.jpg",
+    "overview": "Single mother Marlene Frischmann organizes a birthday party for her son Theo at her brother's chic country villa, which quickly spirals into family drama, world-view quarrels, and chaos.",
+    "trailer_url": null,
+    "cast": [
+        {
+            "name": "Jeanne Goursaud",
+            "character": "Marlene Frischmann",
+            "profile_path": "https://image.tmdb.org/t/p/w500/d8z3LEQGHCiZIRmMQD55Geq0iqM.jpg"
+        },
+        {
+            "name": "Edin Hasanovi\u0107",
+            "character": "Timo",
+            "profile_path": "https://image.tmdb.org/t/p/w500/MW0VhzAHi3oMtnzNuESbpx02Wa.jpg"
+        },
+        {
+            "name": "Heiner Lauterbach",
+            "character": "Hans",
+            "profile_path": "https://image.tmdb.org/t/p/w500/AuDVCHI4myGKsjVzUCXrVKIqu8x.jpg"
+        },
+        {
+            "name": "Levin Wopp",
+            "character": "Theo Frischmann",
+            "profile_path": null
+        },
+        {
+            "name": "Sogol Faghani",
+            "character": "Sofia",
+            "profile_path": "https://image.tmdb.org/t/p/w500/6k89GNKGeuF8TZzOeocg0BhGhC8.jpg"
+        },
+        {
+            "name": "Enzo Brumm",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/4JVcHbpDeeV02lOOC1lDCaKhMmz.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "Netflix",
+            "logo_path": "https://image.tmdb.org/t/p/w500/rK1KljqmbvO9HQa1PBFLILWah72.png",
+            "link": "https://www.themoviedb.org/movie/1789549/watch?locale=US"
+        },
+        {
+            "provider_name": "Netflix Standard with Ads",
+            "logo_path": "https://image.tmdb.org/t/p/w500/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+            "link": "https://www.themoviedb.org/movie/1789549/watch?locale=US"
+        }
+    ]
+}

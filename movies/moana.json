@@ -1,0 +1,77 @@
+{
+    "tmdb_id": 1108427,
+    "media_type": "movie",
+    "slug": "moana",
+    "title": "Moana",
+    "tagline": "The ocean chose her for a reason.",
+    "first_air_date": "2026-07-08",
+    "rating": "7.481",
+    "vote_count": 1007,
+    "popularity": 82.5947,
+    "genres": [
+        "Family",
+        "Fantasy",
+        "Comedy",
+        "Adventure"
+    ],
+    "status": "Released",
+    "network": "Walt Disney Pictures",
+    "poster": "https://image.tmdb.org/t/p/w500/gaet1xQ2nxrG0V1Ep9T20ZMNEIC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
+    "overview": "Teenage Moana answers the Ocean's call and, for the first time, voyages beyond the reef of her island of Motunui with infamous demigod Maui on an unforgettable journey to restore prosperity to her people.",
+    "trailer_url": "https://www.youtube.com/watch?v=fbbL3X_IknE",
+    "cast": [
+        {
+            "name": "Catherine Laga\u02bbaia",
+            "character": "Moana",
+            "profile_path": "https://image.tmdb.org/t/p/w500/tUyT2VfVuRJPqeAbLhFFOtZa4fH.jpg"
+        },
+        {
+            "name": "Dwayne Johnson",
+            "character": "Maui",
+            "profile_path": "https://image.tmdb.org/t/p/w500/5QApZVV8FUFlVxQpIK3Ew6cqotq.jpg"
+        },
+        {
+            "name": "Rena Owen",
+            "character": "Gramma Tala",
+            "profile_path": "https://image.tmdb.org/t/p/w500/648ZdDBmlx6OFDFRmgAbh6q5LBo.jpg"
+        },
+        {
+            "name": "John Tui",
+            "character": "Chief Tui",
+            "profile_path": "https://image.tmdb.org/t/p/w500/2jIc9M5kl2GmK8fZtbtUr2s1jkS.jpg"
+        },
+        {
+            "name": "Frankie Adams",
+            "character": "Sina",
+            "profile_path": "https://image.tmdb.org/t/p/w500/aAUHUSf0lh3OBRoaiCRL9ep8lfL.jpg"
+        },
+        {
+            "name": "Jemaine Clement",
+            "character": "Tamatoa (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/6eiNbeurpHb2fxIeT0RrJ0wRI25.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "Disney Plus",
+            "logo_path": "https://image.tmdb.org/t/p/w500/5eZ872CghnHFLB1j8grszbrx0dx.png",
+            "link": "https://www.themoviedb.org/movie/1108427/watch?locale=US"
+        },
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/1108427/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/1108427/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1108427/watch?locale=US"
+        }
+    ]
+}

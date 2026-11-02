@@ -1,0 +1,33 @@
+{
+    "tmdb_id": 1802542,
+    "media_type": "movie",
+    "slug": "over_stregen",
+    "title": "Over Stregen",
+    "tagline": "",
+    "first_air_date": "2026-11-05",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 3.6517,
+    "genres": [
+        "Drama"
+    ],
+    "status": "Released",
+    "network": "Burre Film",
+    "poster": "https://image.tmdb.org/t/p/w500/4rUeQ5iCDqgS6D017dTtwQhdKJR.jpg",
+    "backdrop": null,
+    "overview": "",
+    "trailer_url": null,
+    "cast": [
+        {
+            "name": "Martin Greis-Rosenthal",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/laIjxXgAfyfUqFQO2WSWqKZTLL0.jpg"
+        },
+        {
+            "name": "Ejgil Riis Hansen",
+            "character": "",
+            "profile_path": null
+        }
+    ],
+    "watch_providers": []
+}

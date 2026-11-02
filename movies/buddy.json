@@ -1,0 +1,106 @@
+{
+    "tmdb_id": 1514026,
+    "media_type": "movie",
+    "slug": "buddy",
+    "title": "Buddy",
+    "tagline": "It's Buddy!",
+    "first_air_date": "2026-08-27",
+    "rating": "6.993",
+    "vote_count": 229,
+    "popularity": 201.9313,
+    "genres": [
+        "Horror",
+        "Comedy",
+        "Fantasy"
+    ],
+    "status": "Released",
+    "network": "BoulderLight Pictures",
+    "poster": "https://image.tmdb.org/t/p/w500/1BdZbNvl1SfrrX8J9X5tQzN6Ivu.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg",
+    "overview": "Inside the colorful world of \"It's Buddy!\", a group of children spend their days singing, dancing, and helping Buddy - bright orange unicorn - spread happiness. But when one child refuses to play along, Buddy is not pleased and cracks begin to appear in this seemingly perfect world.",
+    "trailer_url": "https://www.youtube.com/watch?v=Pc9MbCNYn3k",
+    "cast": [
+        {
+            "name": "Keegan-Michael Key",
+            "character": "Buddy / Dark Buddy (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/xmdzYXP9j87a43FSiL138nLesuS.jpg"
+        },
+        {
+            "name": "Delaney Quinn",
+            "character": "Freddy",
+            "profile_path": "https://image.tmdb.org/t/p/w500/byBPP7Zg4NKQEejOBme9PUdRAZp.jpg"
+        },
+        {
+            "name": "Tristan Borders",
+            "character": "Oliver",
+            "profile_path": "https://image.tmdb.org/t/p/w500/sSXJnfhtw8CbFJKRwd3cMEdhFAq.jpg"
+        },
+        {
+            "name": "Madison Skyy Polan",
+            "character": "Hannah",
+            "profile_path": "https://image.tmdb.org/t/p/w500/9O5EsUmfrr4uHvjFV9sJJFg900g.jpg"
+        },
+        {
+            "name": "Caleb Williams",
+            "character": "Wade",
+            "profile_path": "https://image.tmdb.org/t/p/w500/6I6wWh2dDYziQhqncAT0isaDGoY.jpg"
+        },
+        {
+            "name": "Cristin Milioti",
+            "character": "Grace",
+            "profile_path": "https://image.tmdb.org/t/p/w500/aiOOWmej3qYSiR9cUs3lm5x5SkB.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/1514026/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/1514026/watch?locale=US"
+        },
+        {
+            "provider_name": "Google Play Movies",
+            "logo_path": "https://image.tmdb.org/t/p/w500/aZRENwYILujqs0RVOZutTh0BVGV.png",
+            "link": "https://www.themoviedb.org/movie/1514026/watch?locale=US"
+        },
+        {
+            "provider_name": "YouTube",
+            "logo_path": "https://image.tmdb.org/t/p/w500/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
+            "link": "https://www.themoviedb.org/movie/1514026/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1514026/watch?locale=US"
+        },
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/1514026/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/1514026/watch?locale=US"
+        },
+        {
+            "provider_name": "Google Play Movies",
+            "logo_path": "https://image.tmdb.org/t/p/w500/aZRENwYILujqs0RVOZutTh0BVGV.png",
+            "link": "https://www.themoviedb.org/movie/1514026/watch?locale=US"
+        },
+        {
+            "provider_name": "YouTube",
+            "logo_path": "https://image.tmdb.org/t/p/w500/5Maob4o5w8oZnNeYpCDyVFD3M7X.png",
+            "link": "https://www.themoviedb.org/movie/1514026/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1514026/watch?locale=US"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "tmdb_id": 1562642,
+    "media_type": "movie",
+    "slug": "ghost_soldier",
+    "title": "Ghost Soldier",
+    "tagline": "He's not a threat, he's a guarantee.",
+    "first_air_date": "2026-11-04",
+    "rating": "7.0",
+    "vote_count": 1,
+    "popularity": 28.7133,
+    "genres": [
+        "Action",
+        "Thriller"
+    ],
+    "status": "Released",
+    "network": "Columbia Pictures",
+    "poster": "https://image.tmdb.org/t/p/w500/8Y4oJ5iUs3hgPcDB3SIEmsNYjZk.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/ggqvhSdAASrseKuMlzk51sbvbE8.jpg",
+    "overview": "Henry \u201cFitz\u201d Fitzgerald has spent years living quietly off the grid, hiding from a past few people know anything about. But when a powerful foreign corporation moves into his hometown to seize his neighbors\u2019 land for a massive payday, Fitz is forced to reveal who he really is: a former Special Forces soldier and advanced weapons developer. Armed with experimental technology, lethal combat skills, and an unwavering code of justice, Fitz wages a one-man war against an enemy that never saw him coming.",
+    "trailer_url": "https://www.youtube.com/watch?v=UKaWzMf9Ybc",
+    "cast": [
+        {
+            "name": "Jim Caviezel",
+            "character": "Henry 'Fitz' Fitzgerald",
+            "profile_path": "https://image.tmdb.org/t/p/w500/3dwavYsGYA6zzzipfdLIHbudIZW.jpg"
+        },
+        {
+            "name": "Olivia Thirlby",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/x9ZlUX617wi9li2TJ5UuYpHzPfN.jpg"
+        },
+        {
+            "name": "Beau Knapp",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/6OWe75RIFETlY3iqvTjswcXRc33.jpg"
+        },
+        {
+            "name": "Garret Dillahunt",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/7wHWTkIhre0j9L9CY2t5VVwg630.jpg"
+        },
+        {
+            "name": "Shea Whigham",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/d3caK3l4UfbnzOxv95wLoFLZzMO.jpg"
+        },
+        {
+            "name": "Alexej Manvelov",
+            "character": "Ty Bell",
+            "profile_path": "https://image.tmdb.org/t/p/w500/trZRsEMAdaMnGwYvy7j0P8l7jpL.jpg"
+        }
+    ],
+    "watch_providers": []
+}

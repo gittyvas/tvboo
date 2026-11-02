@@ -1,0 +1,91 @@
+{
+    "tmdb_id": 950028,
+    "media_type": "movie",
+    "slug": "the_invite",
+    "title": "The Invite",
+    "tagline": "It'll be fun.",
+    "first_air_date": "2026-06-25",
+    "rating": "7.204",
+    "vote_count": 904,
+    "popularity": 29.9442,
+    "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+    ],
+    "status": "Released",
+    "network": "Annapurna Pictures",
+    "poster": "https://image.tmdb.org/t/p/w500/b7Dr8Chzse8VagexAporUu2RtLx.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/lEwqBGNR65KZv6Ej5ufcmhZu2y2.jpg",
+    "overview": "Joe and Angela's marriage is on thin ice. When they invite their enigmatic upstairs neighbors for a dinner party, the night spirals into unexpected places. Have they reignited the spark or lit the match that burns it all down?",
+    "trailer_url": "https://www.youtube.com/watch?v=TXVH-23lkr0",
+    "cast": [
+        {
+            "name": "Olivia Wilde",
+            "character": "Angela",
+            "profile_path": "https://image.tmdb.org/t/p/w500/eODi1QKamyVa41eSK2SjU20VAZS.jpg"
+        },
+        {
+            "name": "Seth Rogen",
+            "character": "Joe",
+            "profile_path": "https://image.tmdb.org/t/p/w500/nYl9bvQzaPQLzlf0wf75clLN6Hi.jpg"
+        },
+        {
+            "name": "Pen\u00e9lope Cruz",
+            "character": "Pi\u00f1a",
+            "profile_path": "https://image.tmdb.org/t/p/w500/n5SFgmvJSENQt8poE4qYacUnKOi.jpg"
+        },
+        {
+            "name": "Edward Norton",
+            "character": "Hawk",
+            "profile_path": "https://image.tmdb.org/t/p/w500/8nytsqL59SFJTVYVrN72k6qkGgJ.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "HBO Max Amazon Channel",
+            "logo_path": "https://image.tmdb.org/t/p/w500/64fLWeSyZ1KQZhIdvTdy4QHeWty.png",
+            "link": "https://www.themoviedb.org/movie/950028/watch?locale=US"
+        },
+        {
+            "provider_name": "HBO Max",
+            "logo_path": "https://image.tmdb.org/t/p/w500/skypuy7SXuugIQeYg0IglmzoKaS.png",
+            "link": "https://www.themoviedb.org/movie/950028/watch?locale=US"
+        },
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/950028/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/950028/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/950028/watch?locale=US"
+        },
+        {
+            "provider_name": "Plex",
+            "logo_path": "https://image.tmdb.org/t/p/w500/blAEhvx3XX8sV0fFVFk88FFjubs.png",
+            "link": "https://www.themoviedb.org/movie/950028/watch?locale=US"
+        },
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/950028/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/950028/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/950028/watch?locale=US"
+        }
+    ]
+}

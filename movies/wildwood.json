@@ -1,0 +1,61 @@
+{
+    "tmdb_id": 791523,
+    "media_type": "movie",
+    "slug": "wildwood",
+    "title": "Wildwood",
+    "tagline": "How far would you go for those you love?",
+    "first_air_date": "2026-10-19",
+    "rating": "8.642",
+    "vote_count": 148,
+    "popularity": 1868.8143,
+    "genres": [
+        "Animation",
+        "Adventure",
+        "Fantasy"
+    ],
+    "status": "Released",
+    "network": "LAIKA",
+    "poster": "https://image.tmdb.org/t/p/w500/8g7q6o54WfKWRmUQ0Ye8OskevUY.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+    "overview": "After her baby brother is abducted by a murder of crows, headstrong teenager Prue McKeel launches a desperate rescue mission into the Impassable Wilderness, an enchanted forest hidden just beyond Portland, Oregon. Joined by her hapless but loyal classmate Curtis Mehlberg, Prue navigates a world of talking animals, bandits, and powerful figures driven by grief and ambition. As the pair is drawn into a conflict threatening the balance of the forest itself, Prue must discover the strength and belief she never knew she possessed.",
+    "trailer_url": "https://www.youtube.com/watch?v=LF1NMUUIkNM",
+    "cast": [
+        {
+            "name": "Peyton Elizabeth Lee",
+            "character": "Prue McKeel (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/hnEl4HxqGNGHCJ7Y8l3dJ21WHeG.jpg"
+        },
+        {
+            "name": "Jacob Tremblay",
+            "character": "Curtis Mehlberg (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/h8CXDp86Y36CUENF4SXJq5ZRTsf.jpg"
+        },
+        {
+            "name": "Carey Mulligan",
+            "character": "Alexandra (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/iwVHhqoz5b62FR0SDpZ7wfsuTBI.jpg"
+        },
+        {
+            "name": "Mahershala Ali",
+            "character": "Brenden (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/9ZmSejm5lnUVY5IJ1iNx2QEjnHb.jpg"
+        },
+        {
+            "name": "Richard E. Grant",
+            "character": "Owl Rex (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/92oaBntIXhndCxUXaGywUyILIIE.jpg"
+        },
+        {
+            "name": "Angela Bassett",
+            "character": "The General (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/tKnuviliyeKNGlo26IU5gIrJAtd.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/791523/watch?locale=US"
+        }
+    ]
+}

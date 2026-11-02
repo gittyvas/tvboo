@@ -1,0 +1,55 @@
+{
+    "tmdb_id": 1300968,
+    "media_type": "movie",
+    "slug": "the_hunger_games_sunrise_on_the_reaping",
+    "title": "The Hunger Games: Sunrise on the Reaping",
+    "tagline": "Welcome to the Second Quarter Quell.",
+    "first_air_date": "2026-11-18",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 36.8066,
+    "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+    ],
+    "status": "Released",
+    "network": "Lionsgate",
+    "poster": "https://image.tmdb.org/t/p/w500/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+    "overview": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
+    "trailer_url": "https://www.youtube.com/watch?v=5mrT-BDo5_A",
+    "cast": [
+        {
+            "name": "Joseph Zada",
+            "character": "Haymitch Abernathy",
+            "profile_path": "https://image.tmdb.org/t/p/w500/8RnNxrgffoNOu7ZHPSGvYnfjtdI.jpg"
+        },
+        {
+            "name": "Mckenna Grace",
+            "character": "Maysilee Donner / Merrilee Donner",
+            "profile_path": "https://image.tmdb.org/t/p/w500/sK0CVa56IIpFhCDrcXSTqPWxNbx.jpg"
+        },
+        {
+            "name": "Maya Hawke",
+            "character": "Wiress",
+            "profile_path": "https://image.tmdb.org/t/p/w500/7oihORN6wlSC9qKULcpVq7Kqv1l.jpg"
+        },
+        {
+            "name": "Ralph Fiennes",
+            "character": "President Coriolanus Snow",
+            "profile_path": "https://image.tmdb.org/t/p/w500/tJr9GcmGNHhLVVEH3i7QYbj6hBi.jpg"
+        },
+        {
+            "name": "Jesse Plemons",
+            "character": "Plutarch Heavensbee",
+            "profile_path": "https://image.tmdb.org/t/p/w500/og4I51GsuwohdPgoELOHVMMqMre.jpg"
+        },
+        {
+            "name": "Elle Fanning",
+            "character": "Effie Trinket",
+            "profile_path": "https://image.tmdb.org/t/p/w500/hGL46Q5bkVkQbKAT0SrXcV6ZvRg.jpg"
+        }
+    ],
+    "watch_providers": []
+}

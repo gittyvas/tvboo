@@ -1,0 +1,54 @@
+{
+    "tmdb_id": 1375441,
+    "media_type": "movie",
+    "slug": "primetime",
+    "title": "Primetime",
+    "tagline": "Are you ready to make television history?",
+    "first_air_date": "2026-09-23",
+    "rating": "6.849",
+    "vote_count": 258,
+    "popularity": 55.127,
+    "genres": [
+        "Drama",
+        "Thriller"
+    ],
+    "status": "Released",
+    "network": "A24",
+    "poster": "https://image.tmdb.org/t/p/w500/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+    "overview": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history. When a high stakes operation goes fatally wrong, his veneered dream of fame curdles into a nightmare of performative justice.",
+    "trailer_url": "https://www.youtube.com/watch?v=bOFRnkiBDO4",
+    "cast": [
+        {
+            "name": "Robert Pattinson",
+            "character": "Chris Hansen",
+            "profile_path": "https://image.tmdb.org/t/p/w500/3qZ09UE7lN6AtorfXFRYpEtSY93.jpg"
+        },
+        {
+            "name": "Merritt Wever",
+            "character": "Andie Bender",
+            "profile_path": "https://image.tmdb.org/t/p/w500/ldd1WntzQ72DVuNLoko8yMFHH7j.jpg"
+        },
+        {
+            "name": "Skyler Gisondo",
+            "character": "Dan Plum",
+            "profile_path": "https://image.tmdb.org/t/p/w500/4oywya1Roukq6FJFuWjU5z61WUg.jpg"
+        },
+        {
+            "name": "Matthew Maher",
+            "character": "Xavier Von Erck",
+            "profile_path": "https://image.tmdb.org/t/p/w500/3RPEUaliXJ9lcoL5R5IbcAOwd5D.jpg"
+        },
+        {
+            "name": "Phoebe Bridgers",
+            "character": "Del",
+            "profile_path": "https://image.tmdb.org/t/p/w500/3Br0mutrOkKaemjXsh9m6ejFfRx.jpg"
+        },
+        {
+            "name": "Victor Brunette",
+            "character": "Frag",
+            "profile_path": "https://image.tmdb.org/t/p/w500/oVLryWXSuHFNWceoY61nzOiB1ti.jpg"
+        }
+    ],
+    "watch_providers": []
+}

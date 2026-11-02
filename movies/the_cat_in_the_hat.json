@@ -1,0 +1,57 @@
+{
+    "tmdb_id": 1117898,
+    "media_type": "movie",
+    "slug": "the_cat_in_the_hat",
+    "title": "The Cat in the Hat",
+    "tagline": "The cat's out of the bag.",
+    "first_air_date": "2026-11-04",
+    "rating": "7.7",
+    "vote_count": 3,
+    "popularity": 22.4868,
+    "genres": [
+        "Animation",
+        "Comedy",
+        "Adventure",
+        "Fantasy",
+        "Family"
+    ],
+    "status": "Released",
+    "network": "DNEG",
+    "poster": "https://image.tmdb.org/t/p/w500/tYH4rQZlHtuFSeDS0bsV17khvJC.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/9y9o686DsQg0KzPtERzcW7Cf8IE.jpg",
+    "overview": "Assigned his toughest mission yet, the Cat must cheer up siblings Gabby and Sebastian as they adjust to life in a new town. Known for pushing boundaries, this agent of chaos must prove himself or risk losing his magical hat forever.",
+    "trailer_url": "https://www.youtube.com/watch?v=-8cYJ9Q1QJE",
+    "cast": [
+        {
+            "name": "Bill Hader",
+            "character": "The Cat in the Hat (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/qyT50vQ9PQIEctE1IxDTEsBKstU.jpg"
+        },
+        {
+            "name": "Xochitl Gomez",
+            "character": "Gabby (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/q39DOx44YHrGF1h88R9HxRNZS3.jpg"
+        },
+        {
+            "name": "Tiago Martinez",
+            "character": "Sebastian (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/hqbi17NIqvNmBhI2KiazHtdpS8j.jpg"
+        },
+        {
+            "name": "Matt Berry",
+            "character": "Waffles the Fish (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/1UCAuXgzQfeANlLnZFVSuq0OFhR.jpg"
+        },
+        {
+            "name": "Quinta Brunson",
+            "character": "Sherrie (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/1oEdBc88XAN3Z9n2pdNvH1XIT71.jpg"
+        },
+        {
+            "name": "Bowen Yang",
+            "character": "Gary (voice)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/qzjyaEe7jjLaKSmzQ2dmtcjyCpe.jpg"
+        }
+    ],
+    "watch_providers": []
+}

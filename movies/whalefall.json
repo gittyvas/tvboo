@@ -1,0 +1,53 @@
+{
+    "tmdb_id": 1255833,
+    "media_type": "movie",
+    "slug": "whalefall",
+    "title": "Whalefall",
+    "tagline": "Hold your breath.",
+    "first_air_date": "2026-10-14",
+    "rating": "6.556",
+    "vote_count": 133,
+    "popularity": 61.6254,
+    "genres": [
+        "Thriller"
+    ],
+    "status": "Released",
+    "network": "Imagine Entertainment",
+    "poster": "https://image.tmdb.org/t/p/w500/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/shW2jHkQLZVv4Fko2rJDqTGU0gx.jpg",
+    "overview": "Following the death of his father, Jay Gardiner goes diving off the central Coast of California in search of his remains, but is swallowed by a massive sperm whale. While trapped inside its belly with only one hour of oxygen left, Jay comes to realize that the hard-earned lessons his father imparted may be the key to his escape.",
+    "trailer_url": "https://www.youtube.com/watch?v=wOvnZP6IGYA",
+    "cast": [
+        {
+            "name": "Austin Abrams",
+            "character": "Jay Gardiner",
+            "profile_path": "https://image.tmdb.org/t/p/w500/nvbJNwyhIICUFcS4lhxj9mGvL5z.jpg"
+        },
+        {
+            "name": "Josh Brolin",
+            "character": "Mitt Gardiner",
+            "profile_path": "https://image.tmdb.org/t/p/w500/7QpneI3HoZCCDVPyWx3p3t7yeo7.jpg"
+        },
+        {
+            "name": "Elisabeth Shue",
+            "character": "Zara Gardiner",
+            "profile_path": "https://image.tmdb.org/t/p/w500/1pmjDSLvOuqKW1P2KRPlpFMeUFe.jpg"
+        },
+        {
+            "name": "John Ortiz",
+            "character": "Hewey",
+            "profile_path": "https://image.tmdb.org/t/p/w500/o2SOFI53N6Gv5S3fDEBNbeimbzY.jpg"
+        },
+        {
+            "name": "Jane Levy",
+            "character": "Eva Gardiner",
+            "profile_path": "https://image.tmdb.org/t/p/w500/iYyWPOOpZgAqZK6IddSaD4R9QW3.jpg"
+        },
+        {
+            "name": "Emily Rudd",
+            "character": "Nan Gardiner",
+            "profile_path": "https://image.tmdb.org/t/p/w500/vVl4ABlqUuh5n1M2B9AOOa9r6kV.jpg"
+        }
+    ],
+    "watch_providers": []
+}

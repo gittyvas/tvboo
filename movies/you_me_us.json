@@ -1,0 +1,65 @@
+{
+    "tmdb_id": 1541477,
+    "media_type": "movie",
+    "slug": "you_me_us",
+    "title": "You, Me, Us",
+    "tagline": "",
+    "first_air_date": "2026-10-29",
+    "rating": "5.982",
+    "vote_count": 28,
+    "popularity": 39.5334,
+    "genres": [
+        "Drama",
+        "Comedy"
+    ],
+    "status": "Released",
+    "network": "Lucky Red",
+    "poster": "https://image.tmdb.org/t/p/w500/4Gw8ukw5aAUP1uzNtYZ0CNTUy5A.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/9uU3523A14KJ90Jr8pQx0NGGIgb.jpg",
+    "overview": "A couple faces the difficult path to adoption, determined to become parents despite their complex vulnerabilities.",
+    "trailer_url": "https://www.youtube.com/watch?v=XjUt3Fv_f-Y",
+    "cast": [
+        {
+            "name": "Elio Germano",
+            "character": "Simone",
+            "profile_path": "https://image.tmdb.org/t/p/w500/2Z6SHTOQ9XuKdFlFpKZ2yPCpald.jpg"
+        },
+        {
+            "name": "Maria Chiara Giannetta",
+            "character": "Lucia",
+            "profile_path": "https://image.tmdb.org/t/p/w500/hej1rYJi1qZ5LuIylFh0gMZqOHF.jpg"
+        },
+        {
+            "name": "Lidia Vitale",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/8IXqzKAqVqeT6b9pP8WGH5mTF7d.jpg"
+        },
+        {
+            "name": "Anna Bonaiuto",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/1istMMsr34yfaYCnNyW8SFVMuU5.jpg"
+        },
+        {
+            "name": "Diop Virginia",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/kyJkL0VMZLYNUEn6jUvVXRSefuo.jpg"
+        },
+        {
+            "name": "Francesca De Martini",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/ky2R6fkYU15ALp5PysYTR6DfkIU.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "Netflix",
+            "logo_path": "https://image.tmdb.org/t/p/w500/rK1KljqmbvO9HQa1PBFLILWah72.png",
+            "link": "https://www.themoviedb.org/movie/1541477/watch?locale=US"
+        },
+        {
+            "provider_name": "Netflix Standard with Ads",
+            "logo_path": "https://image.tmdb.org/t/p/w500/eGUwOOIxcazwEBxqJpSN5sWEu6V.png",
+            "link": "https://www.themoviedb.org/movie/1541477/watch?locale=US"
+        }
+    ]
+}

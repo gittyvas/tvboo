@@ -1,0 +1,55 @@
+{
+    "tmdb_id": 1570488,
+    "media_type": "movie",
+    "slug": "a_dogs_perfect_christmas",
+    "title": "A Dog's Perfect Christmas",
+    "tagline": "",
+    "first_air_date": "2026-11-04",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 5.542,
+    "genres": [
+        "Family",
+        "Comedy",
+        "Drama"
+    ],
+    "status": "Released",
+    "network": "Fezziwig Studios",
+    "poster": "https://image.tmdb.org/t/p/w500/TSsdfaD0gGlVqBuy2xYxr3RTaL.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/hhQT0TySg3LXCE8BEPpfPJ5zJA2.jpg",
+    "overview": "Follows a family in crisis where a teenager, her grandfather, and his trusty basset hound struggle to keep the household together at Christmas.",
+    "trailer_url": "https://www.youtube.com/watch?v=L18ih13Bf-U",
+    "cast": [
+        {
+            "name": "Dennis Quaid",
+            "character": "Sander Goss",
+            "profile_path": "https://image.tmdb.org/t/p/w500/lMaDAJHzsKH7U3dln2B3kY3rOhE.jpg"
+        },
+        {
+            "name": "Milo Ventimiglia",
+            "character": "Hunter Goss",
+            "profile_path": "https://image.tmdb.org/t/p/w500/9yFPsQCYi9sbPQ0xJGtoAF4Ar6v.jpg"
+        },
+        {
+            "name": "Brooke Lena Johnson",
+            "character": "Ello Goss",
+            "profile_path": "https://image.tmdb.org/t/p/w500/gcidhYtCeH19FdpMjbVgjvBhbtA.jpg"
+        },
+        {
+            "name": "Kathleen Rose Perkins",
+            "character": "Juliana Goss",
+            "profile_path": "https://image.tmdb.org/t/p/w500/A6bG3mffBZ7xsr6aszSF2RJ0zIC.jpg"
+        },
+        {
+            "name": "Jennifer Tilly",
+            "character": "Lucille",
+            "profile_path": "https://image.tmdb.org/t/p/w500/9vYoYF385cVq9oDO3pDpXihP4vz.jpg"
+        },
+        {
+            "name": "Mary Steenburgen",
+            "character": "Claire",
+            "profile_path": "https://image.tmdb.org/t/p/w500/yJhfuqS3yXW7kLSyvRU6n3b35mq.jpg"
+        }
+    ],
+    "watch_providers": []
+}

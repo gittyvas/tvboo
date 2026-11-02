@@ -1,0 +1,53 @@
+{
+    "tmdb_id": 1545057,
+    "media_type": "movie",
+    "slug": "final_interview",
+    "title": "Final Interview",
+    "tagline": "Everyone lies",
+    "first_air_date": "2026-11-04",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 3.3942,
+    "genres": [
+        "Mystery"
+    ],
+    "status": "Released",
+    "network": "Covenant Pictures",
+    "poster": "https://image.tmdb.org/t/p/w500/mtakf3NKn6qfiKsAd1CoqyaNEjj.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/zAaCSWZCs9IgEn7GiUkDuEtYQKf.jpg",
+    "overview": "Six college students meet at the final interview of a global IT company. Growing closer as they prepare for the group discussion, they dare to dream that all six might make it \u2014 until the day before the interview, when the company announces its verdict: only one will be hired. On the day of the interview, mysterious envelopes arrive, each containing one of their secrets \u2014 and suspicion begins to take hold. Who among the six is the liar?",
+    "trailer_url": "https://www.youtube.com/watch?v=mDqVXcgZKAM",
+    "cast": [
+        {
+            "name": "Cho Yi-hyun",
+            "character": "Moon Hye-in",
+            "profile_path": "https://image.tmdb.org/t/p/w500/cWCNUAyQ9AFUDBfEskZou4eVbEH.jpg"
+        },
+        {
+            "name": "Kim Jae-won",
+            "character": "Han Jin-woo",
+            "profile_path": "https://image.tmdb.org/t/p/w500/diEPTDk0ngXGje4RGmoMaCd0TWe.jpg"
+        },
+        {
+            "name": "Shin Seung-ho",
+            "character": "Baek Seung-bin",
+            "profile_path": "https://image.tmdb.org/t/p/w500/6Ca6UNuwVmHPIVGIPQuChOp7oJp.jpg"
+        },
+        {
+            "name": "Kang You-seok",
+            "character": "Lee Hee-chan",
+            "profile_path": "https://image.tmdb.org/t/p/w500/jCE93OXkHTEbNrGfjZ02kwwbTHB.jpg"
+        },
+        {
+            "name": "Kwak Dong-yeon",
+            "character": "Jeon Yo-han",
+            "profile_path": "https://image.tmdb.org/t/p/w500/klgX8YheSFFXqEdjuCQY5rxTTGa.jpg"
+        },
+        {
+            "name": "Bae Gang-hee",
+            "character": "Cha Ju-won",
+            "profile_path": "https://image.tmdb.org/t/p/w500/73sdH810JWmjfEqXeCxpQkPeUEG.jpg"
+        }
+    ],
+    "watch_providers": []
+}

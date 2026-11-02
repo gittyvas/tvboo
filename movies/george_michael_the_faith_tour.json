@@ -1,0 +1,34 @@
+{
+    "tmdb_id": 1649403,
+    "media_type": "movie",
+    "slug": "george_michael_the_faith_tour",
+    "title": "George Michael: The Faith Tour",
+    "tagline": "Experience the iconic 1988 concert.",
+    "first_air_date": "2026-11-05",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 4.7281,
+    "genres": [
+        "Music",
+        "Documentary"
+    ],
+    "status": "Released",
+    "network": "Mercury Studios",
+    "poster": "https://image.tmdb.org/t/p/w500/LXqHnaJ4ffkcx5YCuJN1noxkhr.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/srq06Q5iFZrgNUuFwvGS5vqwHAh.jpg",
+    "overview": "A stunning delve into George Michael's 1988 Faith Tour, as shot live at the famous Palais Omnisports de Paris-Bercy. This exclusive footage, assembled from a 14-camera shoot captured on 35mm over two nights (30\u201331 May 1988), features the 24-year-old pop star at the height of his powers.",
+    "trailer_url": "https://www.youtube.com/watch?v=JuDdMKTWzNs",
+    "cast": [
+        {
+            "name": "George Michael",
+            "character": "Self (archive footage)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/97ZAoQtREhnQJ7VM5013SAAhOXu.jpg"
+        },
+        {
+            "name": "Herb Ritts",
+            "character": "Self (archive footage)",
+            "profile_path": "https://image.tmdb.org/t/p/w500/8oQCWCF1tT5l4pUv7dPA0EiLp1W.jpg"
+        }
+    ],
+    "watch_providers": []
+}

@@ -1,0 +1,54 @@
+{
+    "tmdb_id": 1567605,
+    "media_type": "movie",
+    "slug": "ebenezer",
+    "title": "Ebenezer",
+    "tagline": "Before he was Scrooge, he was\u2026",
+    "first_air_date": "2026-11-11",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 20.3507,
+    "genres": [
+        "Fantasy",
+        "Comedy"
+    ],
+    "status": "Post Production",
+    "network": "Paramount Pictures",
+    "poster": "https://image.tmdb.org/t/p/w500/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/oveb9ughaDh4GkjmVHvSgFnEzlM.jpg",
+    "overview": "An elderly miser embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness.",
+    "trailer_url": "https://www.youtube.com/watch?v=hruR9KZi2Xg",
+    "cast": [
+        {
+            "name": "Johnny Depp",
+            "character": "Ebenezer Scrooge",
+            "profile_path": "https://image.tmdb.org/t/p/w500/k2xt6EUxQDwYRKIyI4IBdZxfs8n.jpg"
+        },
+        {
+            "name": "Rupert Grint",
+            "character": "Bob Cratchit",
+            "profile_path": "https://image.tmdb.org/t/p/w500/iFlkpTaOF6fGLqxz8b0PhI0i0zN.jpg"
+        },
+        {
+            "name": "Daisy Ridley",
+            "character": "Emily Cratchit",
+            "profile_path": "https://image.tmdb.org/t/p/w500/A8QZBHZjlbWDiUXBvCTk4Zv5oBs.jpg"
+        },
+        {
+            "name": "Andrea Riseborough",
+            "character": "Ghost of Christmas Past",
+            "profile_path": "https://image.tmdb.org/t/p/w500/dQzAXj6R8cTRqTwGzxUgegXbV13.jpg"
+        },
+        {
+            "name": "Tramell Tillman",
+            "character": "Ghost of Christmas Present",
+            "profile_path": "https://image.tmdb.org/t/p/w500/bEA15zMnkcXlRroYjKrFUWiiK7y.jpg"
+        },
+        {
+            "name": "Ian McKellen",
+            "character": "Jacob Marley",
+            "profile_path": "https://image.tmdb.org/t/p/w500/5cnnnpnJG6TiYUSS7qgJheUZgnv.jpg"
+        }
+    ],
+    "watch_providers": []
+}

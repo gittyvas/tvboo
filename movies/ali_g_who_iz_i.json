@@ -1,0 +1,64 @@
+{
+    "tmdb_id": 1727734,
+    "media_type": "movie",
+    "slug": "ali_g_who_iz_i",
+    "title": "Ali G: Who Iz I?",
+    "tagline": "Livin XXX large.",
+    "first_air_date": "2026-10-22",
+    "rating": "5.8",
+    "vote_count": 121,
+    "popularity": 117.5764,
+    "genres": [
+        "Comedy"
+    ],
+    "status": "Released",
+    "network": "Four by Two Films",
+    "poster": "https://image.tmdb.org/t/p/w500/uTyVxPeWX8Ai30IQoyDDQONNcq.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/hJcGJLi34zE4RhzsiDR6f7pw50K.jpg",
+    "overview": "After twenty years spent \"chillin', tokin' and bonin'\", Ali G is shocked to discover that his long-term girlfriend, Julie, is 8 months pregnant. Faced with an extra mouth to feed, he gets off his batty and heads to America to reclaim his former glory\u2026 but soon encounters adversaries who will ultimately threaten his and his child's very existence.",
+    "trailer_url": "https://www.youtube.com/watch?v=ANYUtxJ4Tzo",
+    "cast": [
+        {
+            "name": "Sacha Baron Cohen",
+            "character": "Ali G / Nira Cain-N'Degeocello / Erran Morad",
+            "profile_path": "https://image.tmdb.org/t/p/w500/bGzXHu8zwWqUY5gEExSh3deQd2j.jpg"
+        },
+        {
+            "name": "Morgana Robinson",
+            "character": "Julie",
+            "profile_path": "https://image.tmdb.org/t/p/w500/guBJRfTPeLBd3RxbhzUIi3cl242.jpg"
+        },
+        {
+            "name": "Alpha Miknas",
+            "character": "Manu",
+            "profile_path": "https://image.tmdb.org/t/p/w500/iIfNQnMSnifN33yIZRR279YnA59.jpg"
+        },
+        {
+            "name": "Clive Russell",
+            "character": "Malcolm 'Rocky' Atkins",
+            "profile_path": "https://image.tmdb.org/t/p/w500/eC37Kmdo5YKNG2MyirCG4tWDxCS.jpg"
+        },
+        {
+            "name": "A$AP Rocky",
+            "character": "A$AP Rocky",
+            "profile_path": "https://image.tmdb.org/t/p/w500/gL0NFnIrqLosSbdxAHExOHAMkFH.jpg"
+        },
+        {
+            "name": "Rihanna",
+            "character": "Rihanna",
+            "profile_path": "https://image.tmdb.org/t/p/w500/piXUA7L0gWQNtnDPXtBe24C9FF6.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "Amazon Prime Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+            "link": "https://www.themoviedb.org/movie/1727734/watch?locale=US"
+        },
+        {
+            "provider_name": "Amazon Prime Video with Ads",
+            "logo_path": "https://image.tmdb.org/t/p/w500/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+            "link": "https://www.themoviedb.org/movie/1727734/watch?locale=US"
+        }
+    ]
+}

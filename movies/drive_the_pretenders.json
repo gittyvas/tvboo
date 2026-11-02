@@ -1,0 +1,65 @@
+{
+    "tmdb_id": 1596275,
+    "media_type": "movie",
+    "slug": "drive_the_pretenders",
+    "title": "Drive - The Pretenders",
+    "tagline": "",
+    "first_air_date": "2026-10-27",
+    "rating": "7.725",
+    "vote_count": 89,
+    "popularity": 308.3646,
+    "genres": [
+        "Romance",
+        "Thriller"
+    ],
+    "status": "Released",
+    "network": "Bavaria Fiction",
+    "poster": "https://image.tmdb.org/t/p/w500/s9syckECnUYhKePQ1A0DC0mFVZ9.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/hbz4aeVsjnKb2HRoFbbr46Egh8y.jpg",
+    "overview": "A young mechanic fakes an engagement with racing's most scandalous star \u2014 officially for his reputation, secretly for her own shot behind the wheel. But soon the lie threatens to destroy everything \u2014 including what's already become so much more than just a deal.",
+    "trailer_url": "https://www.youtube.com/watch?v=-sV69CJwUwU",
+    "cast": [
+        {
+            "name": "Lisa-Marie Koroll",
+            "character": "Sarah Jenkins",
+            "profile_path": "https://image.tmdb.org/t/p/w500/5wgbyqv6MK3hQyeKdQrIf3k3nZW.jpg"
+        },
+        {
+            "name": "Amin Baahmed",
+            "character": "Dante Annunziata",
+            "profile_path": "https://image.tmdb.org/t/p/w500/oyFyPJkzefovbnRE6DnWwwYLZaD.jpg"
+        },
+        {
+            "name": "Gustav Schmidt",
+            "character": "Ruben Laroch",
+            "profile_path": "https://image.tmdb.org/t/p/w500/okAsgPvMjDEVkLg5S2lyfZbsGvD.jpg"
+        },
+        {
+            "name": "Mi\u0161el Mati\u010devi\u0107",
+            "character": "Alexander Bronson",
+            "profile_path": "https://image.tmdb.org/t/p/w500/jKYzgKIBs4O7eBBMDKk1T5RWYjN.jpg"
+        },
+        {
+            "name": "Lucie Heinze",
+            "character": "Tanya Stein",
+            "profile_path": "https://image.tmdb.org/t/p/w500/mOOEz6Xx06RGPn6Wqo2Thy4H2XI.jpg"
+        },
+        {
+            "name": "Frederic Linkemann",
+            "character": "Jack Schroder",
+            "profile_path": "https://image.tmdb.org/t/p/w500/wjjTwrOFcW3KZua8ah2j8qBqVFe.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "Amazon Prime Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+            "link": "https://www.themoviedb.org/movie/1596275/watch?locale=US"
+        },
+        {
+            "provider_name": "Amazon Prime Video with Ads",
+            "logo_path": "https://image.tmdb.org/t/p/w500/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+            "link": "https://www.themoviedb.org/movie/1596275/watch?locale=US"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "tmdb_id": 1400940,
+    "media_type": "movie",
+    "slug": "clayface",
+    "title": "Clayface",
+    "tagline": "Look fear in the face.",
+    "first_air_date": "2026-10-19",
+    "rating": "7.45",
+    "vote_count": 343,
+    "popularity": 158.4535,
+    "genres": [
+        "Horror",
+        "Thriller",
+        "Science Fiction"
+    ],
+    "status": "Released",
+    "network": "DC Studios",
+    "poster": "https://image.tmdb.org/t/p/w500/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
+    "overview": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self\u2026 but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge.",
+    "trailer_url": "https://www.youtube.com/watch?v=F1jCd_tMEDM",
+    "cast": [
+        {
+            "name": "Tom Rhys Harries",
+            "character": "Matt Hagen / Clayface",
+            "profile_path": "https://image.tmdb.org/t/p/w500/elxvpHPqOxGcKe6U2hcArIcpyWo.jpg"
+        },
+        {
+            "name": "Naomi Ackie",
+            "character": "Caitlyn Corr",
+            "profile_path": "https://image.tmdb.org/t/p/w500/dijwuTAEZUzQtoJfK49S4X80fQw.jpg"
+        },
+        {
+            "name": "Eddie Marsan",
+            "character": "Frank Fitzpatrick",
+            "profile_path": "https://image.tmdb.org/t/p/w500/9atfOgIxhfOKvv2be8HEp6SzOct.jpg"
+        },
+        {
+            "name": "Max Minghella",
+            "character": "John Borrelli",
+            "profile_path": "https://image.tmdb.org/t/p/w500/AhVDxsOOoAnwwVBL7ZY8W0mGsYJ.jpg"
+        },
+        {
+            "name": "David Dencik",
+            "character": "Markos Szabo",
+            "profile_path": "https://image.tmdb.org/t/p/w500/q5wLADc6yYd3owxSEG8VKbf7YWV.jpg"
+        },
+        {
+            "name": "Francesca Corney",
+            "character": "Rosie",
+            "profile_path": "https://image.tmdb.org/t/p/w500/p2B2dYAvl0TMUtbrZxzOdNgBbSE.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1400940/watch?locale=US"
+        }
+    ]
+}

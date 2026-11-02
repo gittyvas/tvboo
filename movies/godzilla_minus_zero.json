@@ -1,0 +1,55 @@
+{
+    "tmdb_id": 1381071,
+    "media_type": "movie",
+    "slug": "godzilla_minus_zero",
+    "title": "Godzilla Minus Zero",
+    "tagline": "There is no third time. Everything ends here.",
+    "first_air_date": "2026-11-03",
+    "rating": "10.0",
+    "vote_count": 2,
+    "popularity": 26.0668,
+    "genres": [
+        "Science Fiction",
+        "Horror",
+        "Action"
+    ],
+    "status": "Released",
+    "network": "TOHO",
+    "poster": "https://image.tmdb.org/t/p/w500/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
+    "overview": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant. There is no third time. Everything ends here.",
+    "trailer_url": "https://www.youtube.com/watch?v=pWJjYoqVSjQ",
+    "cast": [
+        {
+            "name": "Ryunosuke Kamiki",
+            "character": "Koichi Shikishima",
+            "profile_path": "https://image.tmdb.org/t/p/w500/ut7ewXjdgUmgkhJ1EtbOo9tbc7s.jpg"
+        },
+        {
+            "name": "Minami Hamabe",
+            "character": "Noriko Oishi",
+            "profile_path": "https://image.tmdb.org/t/p/w500/eQN8N2chINckvQDiNqzDXI0v9vN.jpg"
+        },
+        {
+            "name": "Yuki Yamada",
+            "character": "Shiro Mizushima",
+            "profile_path": "https://image.tmdb.org/t/p/w500/1oRe8UYddBYzyqAjlSwMTIFgg4K.jpg"
+        },
+        {
+            "name": "Kuranosuke Sasaki",
+            "character": "Seiji Akitsu",
+            "profile_path": "https://image.tmdb.org/t/p/w500/lPDKfLKIKDCBdqig3uhYnPjwY5h.jpg"
+        },
+        {
+            "name": "Jun Kunimura",
+            "character": "",
+            "profile_path": "https://image.tmdb.org/t/p/w500/zC0GbuXQGPur7i8AkdPUWedmDKz.jpg"
+        },
+        {
+            "name": "Miou Tanaka",
+            "character": "Captain Tatsuo Hotta",
+            "profile_path": "https://image.tmdb.org/t/p/w500/4dXKZqcF1K6n6yVAGVVRlsc1RU0.jpg"
+        }
+    ],
+    "watch_providers": []
+}

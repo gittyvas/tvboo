@@ -1,0 +1,90 @@
+{
+    "tmdb_id": 1377237,
+    "media_type": "movie",
+    "slug": "runner",
+    "title": "Runner",
+    "tagline": "Next-day delivery isn't an option.",
+    "first_air_date": "2026-09-07",
+    "rating": "8.3",
+    "vote_count": 787,
+    "popularity": 88.1688,
+    "genres": [
+        "Action",
+        "Comedy"
+    ],
+    "status": "Released",
+    "network": "Broken Road Productions",
+    "poster": "https://image.tmdb.org/t/p/w500/vJk2TW1QZAmBiD7oj9ZF9EPTYY1.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
+    "overview": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
+    "trailer_url": "https://www.youtube.com/watch?v=otxjH3lrunU",
+    "cast": [
+        {
+            "name": "Alan Ritchson",
+            "character": "Hank Malone",
+            "profile_path": "https://image.tmdb.org/t/p/w500/92YNEEpCyugkTzPprJwZpvVtvuK.jpg"
+        },
+        {
+            "name": "Owen Wilson",
+            "character": "Ben Bishop",
+            "profile_path": "https://image.tmdb.org/t/p/w500/5A46lNOwmpX77jAdhyKxU7e2Hub.jpg"
+        },
+        {
+            "name": "Rodrigo Santoro",
+            "character": "Damian Zaldivar",
+            "profile_path": "https://image.tmdb.org/t/p/w500/d3MaF9SPHDn2PMYHuqdnO0Csik6.jpg"
+        },
+        {
+            "name": "Leila George",
+            "character": "Kate Baker",
+            "profile_path": "https://image.tmdb.org/t/p/w500/s46DMiPDGSMq6qad5TL8mG5qfdy.jpg"
+        },
+        {
+            "name": "Kate Box",
+            "character": "Dr. Ainsley",
+            "profile_path": "https://image.tmdb.org/t/p/w500/zv4NckgNBn6Tc2xhCdNFFx9o9EZ.jpg"
+        },
+        {
+            "name": "Peta Sergeant",
+            "character": "Nurse Julie",
+            "profile_path": "https://image.tmdb.org/t/p/w500/owkSN29t7P6hpazZKsUMt7FybrP.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "Angel Studios",
+            "logo_path": "https://image.tmdb.org/t/p/w500/pusUxS9dP5VK7HkN8SLf2wnP9gm.png",
+            "link": "https://www.themoviedb.org/movie/1377237/watch?locale=US"
+        },
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/1377237/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/1377237/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1377237/watch?locale=US"
+        },
+        {
+            "provider_name": "Amazon Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/jn6TLbtaTZntTRX9UYucHJvpQx1.png",
+            "link": "https://www.themoviedb.org/movie/1377237/watch?locale=US"
+        },
+        {
+            "provider_name": "Apple TV Store",
+            "logo_path": "https://image.tmdb.org/t/p/w500/qdEGArH3lKfFnAtYXMkSYk5wxuG.png",
+            "link": "https://www.themoviedb.org/movie/1377237/watch?locale=US"
+        },
+        {
+            "provider_name": "Fandango At Home",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wpOt6x0dRxTrIzuBosto4LGd7E9.png",
+            "link": "https://www.themoviedb.org/movie/1377237/watch?locale=US"
+        }
+    ]
+}

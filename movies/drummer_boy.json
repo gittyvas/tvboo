@@ -1,0 +1,55 @@
+{
+    "tmdb_id": 1697911,
+    "media_type": "movie",
+    "slug": "drummer_boy",
+    "title": "Drummer Boy",
+    "tagline": "Forgiveness is revolutionary.",
+    "first_air_date": "2026-11-05",
+    "rating": "0.0",
+    "vote_count": 0,
+    "popularity": 8.7663,
+    "genres": [
+        "War",
+        "Romance",
+        "Music"
+    ],
+    "status": "Released",
+    "network": "Angel Studios",
+    "poster": "https://image.tmdb.org/t/p/w500/bhjdgMm2fFrysSzVqv5RwRwIbVf.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/5KF459N6jOfRV7kV9XV7ZQdCLKK.jpg",
+    "overview": "As America\u2019s fight for independence begins, a young drummer boy, an enslaved woman, and a divided family each search for freedom in a world built to deny it. With music carrying hope through battle and loss, Drummer Boy turns the Revolution into a deeply human story of faith, forgiveness, and the belief that no person is born to live in chains or be forgotten.",
+    "trailer_url": "https://www.youtube.com/watch?v=rXaR4nXRvOY",
+    "cast": [
+        {
+            "name": "Joel Smallbone",
+            "character": "Jeremiah Clem",
+            "profile_path": "https://image.tmdb.org/t/p/w500/jgmSh04jRbSxGlBTMJ9Wo4CFDMB.jpg"
+        },
+        {
+            "name": "Beth Easdown",
+            "character": "Lady Elizabeth Balfour",
+            "profile_path": "https://image.tmdb.org/t/p/w500/tVGgLl2xF6FQDTGOx1ymxSoA5L2.jpg"
+        },
+        {
+            "name": "Kenneth Barry",
+            "character": "Gother",
+            "profile_path": "https://image.tmdb.org/t/p/w500/x1XszlzeVsAdhF1xGmHHOfXWNM7.jpg"
+        },
+        {
+            "name": "Charles Esten",
+            "character": "Lord Balfour",
+            "profile_path": "https://image.tmdb.org/t/p/w500/pd5Z0xe1CCRtaprwxdnP1rncNxj.jpg"
+        },
+        {
+            "name": "Iain Glen",
+            "character": "Major John Ambrose",
+            "profile_path": "https://image.tmdb.org/t/p/w500/d9CKAAiV1HvSnzzmpDzD0mC0HlX.jpg"
+        },
+        {
+            "name": "India Brown",
+            "character": "Emmaline",
+            "profile_path": "https://image.tmdb.org/t/p/w500/hqOxRR0DBJ8Z2IKFYThCV7xcsqv.jpg"
+        }
+    ],
+    "watch_providers": []
+}

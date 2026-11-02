@@ -1,0 +1,66 @@
+{
+    "tmdb_id": 1507696,
+    "media_type": "movie",
+    "slug": "apocalypse_z_new_world",
+    "title": "Apocalypse Z: New World",
+    "tagline": "",
+    "first_air_date": "2026-10-09",
+    "rating": "6.063",
+    "vote_count": 72,
+    "popularity": 293.6031,
+    "genres": [
+        "Action",
+        "Thriller",
+        "Horror"
+    ],
+    "status": "Released",
+    "network": "Nostromo Pictures",
+    "poster": "https://image.tmdb.org/t/p/w500/wXln4DUrwcyjcFPwgQxFPYTlG1Z.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/o3XwuDUj0n8qnK91p6q8LKfr6rj.jpg",
+    "overview": "The Canary Islands have become Europe\u2019s last refuge following the outbreak of the TSJ virus. When a special mission sets out for the mainland in search of vital supplies, Roberto joins the team with questionable intentions. The dangerous operation turns into a desperate race for survival, and Roberto and his companions find themselves caught between hordes of infected and divided loyalties.",
+    "trailer_url": "https://www.youtube.com/watch?v=BIEzwpyawtw",
+    "cast": [
+        {
+            "name": "Carlos Alcaide",
+            "character": "Roberto",
+            "profile_path": "https://image.tmdb.org/t/p/w500/rl8fxgvKu56zxf5kIMGVTX3ju7Q.jpg"
+        },
+        {
+            "name": "Julia Mart\u00ednez",
+            "character": "Marina",
+            "profile_path": "https://image.tmdb.org/t/p/w500/kkw8za1vSW4uLXBdakwbFLO7TCU.jpg"
+        },
+        {
+            "name": "Jos\u00e9 Mar\u00eda Y\u00e1zpik",
+            "character": "Pritchenko",
+            "profile_path": "https://image.tmdb.org/t/p/w500/GEV4PnIhxAAPxIHvsyhdLUjnSv.jpg"
+        },
+        {
+            "name": "M\u00f3nica L\u00f3pez",
+            "character": "Castro",
+            "profile_path": "https://image.tmdb.org/t/p/w500/7Gm2h0ApsorCUJhUA8gUtxrWzMd.jpg"
+        },
+        {
+            "name": "Tamara Casellas",
+            "character": "Comillas",
+            "profile_path": "https://image.tmdb.org/t/p/w500/nCXGGmFP7pyNrdUtrsDUIOVjyc.jpg"
+        },
+        {
+            "name": "Berta V\u00e1zquez",
+            "character": "Luc\u00eda",
+            "profile_path": "https://image.tmdb.org/t/p/w500/2QNOI5L03XomONmCR42GPyVYryy.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "Amazon Prime Video",
+            "logo_path": "https://image.tmdb.org/t/p/w500/gMZdpavHmxFNnLpMHwVxfqeux2g.png",
+            "link": "https://www.themoviedb.org/movie/1507696/watch?locale=US"
+        },
+        {
+            "provider_name": "Amazon Prime Video with Ads",
+            "logo_path": "https://image.tmdb.org/t/p/w500/tpwTT1FpWqLLhxUfAuDavIXDDfI.png",
+            "link": "https://www.themoviedb.org/movie/1507696/watch?locale=US"
+        }
+    ]
+}

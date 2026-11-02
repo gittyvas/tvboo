@@ -1,0 +1,71 @@
+{
+    "tmdb_id": 1290418,
+    "media_type": "movie",
+    "slug": "the_cycle",
+    "title": "The Cycle",
+    "tagline": "You can't bury the past forever.",
+    "first_air_date": "2026-09-24",
+    "rating": "6.824",
+    "vote_count": 108,
+    "popularity": 91.1546,
+    "genres": [
+        "Horror",
+        "Thriller",
+        "Mystery"
+    ],
+    "status": "Released",
+    "network": "Tea Shop Productions",
+    "poster": "https://image.tmdb.org/t/p/w500/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/bgHW6AJl2SdKzxglvf9tshXbI84.jpg",
+    "overview": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
+    "trailer_url": "https://www.youtube.com/watch?v=m8vcBN8uza8",
+    "cast": [
+        {
+            "name": "Deborah Ann Woll",
+            "character": "Meg",
+            "profile_path": "https://image.tmdb.org/t/p/w500/btTnyvRLXOH0pz2SLBwyKbmnFhX.jpg"
+        },
+        {
+            "name": "Jeffrey Donovan",
+            "character": "Marks",
+            "profile_path": "https://image.tmdb.org/t/p/w500/wlDXfXpu6Uz32LUmbFzU8QPDoQH.jpg"
+        },
+        {
+            "name": "Gretchen Corbett",
+            "character": "Joni",
+            "profile_path": "https://image.tmdb.org/t/p/w500/qGtjneRWJlK5opx4qSBWCW6rBFs.jpg"
+        },
+        {
+            "name": "Jack Doolan",
+            "character": "Lenny",
+            "profile_path": "https://image.tmdb.org/t/p/w500/oxG0UbYNecEjsIMHxi0E5J1ywBD.jpg"
+        },
+        {
+            "name": "Will Hochman",
+            "character": "Ian",
+            "profile_path": "https://image.tmdb.org/t/p/w500/uSefUOsCY0h3gdMY4uhFzwERYI.jpg"
+        },
+        {
+            "name": "Dana Millican",
+            "character": "Fran",
+            "profile_path": "https://image.tmdb.org/t/p/w500/kCyjkofNLRX3DROc6lSqE1e4Hmb.jpg"
+        }
+    ],
+    "watch_providers": [
+        {
+            "provider_name": "AMC Plus Apple TV channel",
+            "logo_path": "https://image.tmdb.org/t/p/w500/wLl5LRLVC6UOSaUlsmuzY0H9LS1.png",
+            "link": "https://www.themoviedb.org/movie/1290418/watch?locale=US"
+        },
+        {
+            "provider_name": "AMC+ Amazon Channel",
+            "logo_path": "https://image.tmdb.org/t/p/w500/tg5ufQ1GkYDCMxSSxemfeKWcvRe.png",
+            "link": "https://www.themoviedb.org/movie/1290418/watch?locale=US"
+        },
+        {
+            "provider_name": "Shudder",
+            "logo_path": "https://image.tmdb.org/t/p/w500/58O6yqUFM6qoOiBNAddJs7xNKc.png",
+            "link": "https://www.themoviedb.org/movie/1290418/watch?locale=US"
+        }
+    ]
+}

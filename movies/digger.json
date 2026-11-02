@@ -1,0 +1,54 @@
+{
+    "tmdb_id": 1248832,
+    "media_type": "movie",
+    "slug": "digger",
+    "title": "Digger",
+    "tagline": "A man. A plan. A meltdown.",
+    "first_air_date": "2026-09-28",
+    "rating": "7.502",
+    "vote_count": 492,
+    "popularity": 65.6477,
+    "genres": [
+        "Comedy",
+        "Drama"
+    ],
+    "status": "Released",
+    "network": "Warner Bros. Pictures",
+    "poster": "https://image.tmdb.org/t/p/w500/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
+    "backdrop": "https://image.tmdb.org/t/p/original/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
+    "overview": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
+    "trailer_url": "https://www.youtube.com/watch?v=eQhf-2jMvWI",
+    "cast": [
+        {
+            "name": "Tom Cruise",
+            "character": "Digger Rockwell",
+            "profile_path": "https://image.tmdb.org/t/p/w500/maf8PhSvDCdEwjEMbYfGpojR5RP.jpg"
+        },
+        {
+            "name": "Riz Ahmed",
+            "character": "Dr. Nirav Ganesh",
+            "profile_path": "https://image.tmdb.org/t/p/w500/1uP9RaX7BGVx7XGTEmwObBJJzsC.jpg"
+        },
+        {
+            "name": "John Goodman",
+            "character": "President Compson",
+            "profile_path": "https://image.tmdb.org/t/p/w500/yyYqoyKHO7hE1zpgEV2XlqYWcNV.jpg"
+        },
+        {
+            "name": "Sandra H\u00fcller",
+            "character": "Emma Rockwell",
+            "profile_path": "https://image.tmdb.org/t/p/w500/jQfKXVCPTH9KEnzHHU4QemCnlMe.jpg"
+        },
+        {
+            "name": "Michael Stuhlbarg",
+            "character": "Vice President Eddie",
+            "profile_path": "https://image.tmdb.org/t/p/w500/aYB3SQm3h6ZyAdlbGyiNfakjx56.jpg"
+        },
+        {
+            "name": "Jesse Plemons",
+            "character": "Kenny Rockwell",
+            "profile_path": "https://image.tmdb.org/t/p/w500/og4I51GsuwohdPgoELOHVMMqMre.jpg"
+        }
+    ],
+    "watch_providers": []
+}
