@@ -1140,20 +1140,19 @@ function registerPageRoutes(app) {
     });
 }
 
-module.exports = {
-    registerPageRoutes,
-    renderHomePage,
-    renderSeriesPage,
-    renderMoviePage,
-    renderCategoryPage,
-    renderSportsIndexPage,
-    renderSportPage
-};
+const app = express();
+registerPageRoutes(app);
+
+module.exports = app;
+module.exports.registerPageRoutes = registerPageRoutes;
+module.exports.renderHomePage = renderHomePage;
+module.exports.renderSeriesPage = renderSeriesPage;
+module.exports.renderMoviePage = renderMoviePage;
+module.exports.renderCategoryPage = renderCategoryPage;
+module.exports.renderSportsIndexPage = renderSportsIndexPage;
+module.exports.renderSportPage = renderSportPage;
 
 if (require.main === module) {
-    const app = express();
-    registerPageRoutes(app);
-
     const port = process.env.PORT || 3000;
     app.listen(port, () => {
         console.log(`TVBO server listening on port ${port}`);
