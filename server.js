@@ -191,19 +191,32 @@ function escapeHtml(str) {
     if (!str) return '';
     return String(str)
         .replace(/&/g, '&amp;')
-        .replace(/["']/g, '&quot;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;')
         .replace(/</g, '&lt;')
         .replace(/>/g, '&gt;');
 }
 
 function getSafeExternalUrl(value) {
+    const url = getHttpUrl(value);
+    return url ? escapeHtml(url) : '';
+}
+
+function getHttpUrl(value) {
     if (typeof value !== 'string' || !value.trim()) return '';
     try {
         const url = new URL(value);
-        return ['http:', 'https:'].includes(url.protocol) ? escapeHtml(url.href) : '';
+        return ['http:', 'https:'].includes(url.protocol) ? url.href : '';
     } catch (error) {
         return '';
     }
+}
+
+function serializeJsonLd(value) {
+    return JSON.stringify(value)
+        .replace(/</g, '\\u003c')
+        .replace(/>/g, '\\u003e')
+        .replace(/&/g, '\\u0026');
 }
 
 function safeReplace(template, searchValue, replacement) {
@@ -435,6 +448,7 @@ function renderHomePage() {
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
+    <meta name="msvalidate.01" content="F5308A5AD4F907B86D9811208128F708">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
@@ -510,6 +524,7 @@ const htmlTemplate = `<!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
+    <meta name="msvalidate.01" content="F5308A5AD4F907B86D9811208128F708">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
@@ -829,6 +844,7 @@ function renderCategoryPage(requestedCategorySlug) {
     <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <meta name="msvalidate.01" content="F5308A5AD4F907B86D9811208128F708">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="/favicon.ico" sizes="any">
         <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
@@ -883,13 +899,72 @@ function renderMoviePage(requestedSlug) {
     if (!movie) return null;
 
     const slug = movie.slug || slugify(movie.title);
-    const title = escapeHtml(movie.title);
-    const pageTitle = escapeHtml(`${movie.title} — Watch Free Online in HD - ${BRAND_NAME}`);
-    const overview = escapeHtml(getDynamicOverview(movie));
-    const poster = escapeHtml(movie.poster || movie.posters?.[0] || '');
+    const mediaType = String(movie.media_type || 'movie').trim().toLowerCase();
+    const mediaTypeMetadata = {
+        movie: { label: 'Movie', schemaType: 'Movie', openGraphType: 'video.movie' },
+        tv: { label: 'TV series', schemaType: 'TVSeries', openGraphType: 'video.tv_show' },
+        series: { label: 'TV series', schemaType: 'TVSeries', openGraphType: 'video.tv_show' },
+        tv_series: { label: 'TV series', schemaType: 'TVSeries', openGraphType: 'video.tv_show' }
+    }[mediaType] || { label: mediaType || 'Title', schemaType: 'CreativeWork', openGraphType: 'website' };
+    const rawTitle = String(movie.title || 'Untitled movie');
+    const title = escapeHtml(rawTitle);
+    const pageTitle = escapeHtml(`${rawTitle} — Watch ${mediaTypeMetadata.label} Online in HD | ${BRAND_NAME}`);
+    const rawOverview = String(getDynamicOverview(movie));
+    const overview = escapeHtml(rawOverview);
+    const metaDescription = escapeHtml(
+        `Discover ${rawTitle} on ${BRAND_NAME}. ${rawOverview} Explore its cast, genres, and movie details.`
+    );
     const homeUrl = DOMAIN;
     const canonicalUrl = `${DOMAIN}/movies/${encodeURIComponent(slug)}`;
-    const genres = Array.isArray(movie.genres) ? movie.genres : [];
+    const genres = Array.isArray(movie.genres)
+        ? movie.genres.filter(genre => typeof genre === 'string' && genre.trim())
+        : [];
+    const posterUrl = getHttpUrl(movie.poster || movie.posters?.[0] || '');
+    const backdropUrl = getHttpUrl(movie.backdrop || '');
+    const poster = escapeHtml(posterUrl);
+    const images = [...new Set([posterUrl, backdropUrl].filter(Boolean))];
+    const releaseDate = String(movie.release_date || movie.first_air_date || '');
+    const validReleaseDate = /^\d{4}-\d{2}-\d{2}$/.test(releaseDate) ? releaseDate : '';
+    const releaseYear = validReleaseDate
+        ? validReleaseDate.slice(0, 4)
+        : /^\d{4}$/.test(String(movie.year || '')) ? String(movie.year) : '';
+    const ratingValue = Number(movie.rating ?? movie.vote_average);
+    const ratingCount = Number(movie.vote_count ?? movie.rating_count ?? movie.ratingCount);
+    const ratingDisplay = Number.isFinite(ratingValue) && ratingValue > 0
+        ? ratingValue.toFixed(1)
+        : '';
+    const aggregateRating = Number.isFinite(ratingValue) && ratingValue > 0
+        && Number.isSafeInteger(ratingCount) && ratingCount > 0
+        ? {
+            '@type': 'AggregateRating',
+            ratingValue,
+            ratingCount,
+            bestRating: 10,
+            worstRating: 0
+        }
+        : null;
+    const movieSchema = {
+        '@context': 'https://schema.org',
+        '@type': mediaTypeMetadata.schemaType,
+        '@id': `${canonicalUrl}#${mediaType}`,
+        url: canonicalUrl,
+        name: rawTitle,
+        description: rawOverview,
+        inLanguage: movie.original_language || movie.inLanguage || 'en',
+        ...(images.length ? { image: images } : {}),
+        ...(genres.length ? { genre: genres } : {}),
+        ...(validReleaseDate ? { datePublished: validReleaseDate } : {}),
+        ...(aggregateRating ? { aggregateRating } : {})
+    };
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: `${DOMAIN}/` },
+            { '@type': 'ListItem', position: 2, name: 'Movies', item: `${DOMAIN}/movies` },
+            { '@type': 'ListItem', position: 3, name: rawTitle, item: canonicalUrl }
+        ]
+    };
     const movieGenresHtml = genres.length > 0
         ? escapeHtml(genres.join(', '))
         : '<span>No genres listed</span>';
@@ -897,21 +972,38 @@ function renderMoviePage(requestedSlug) {
     const recommendationsHtml = renderRecommendationCards(recommendedItems);
 
     return `<!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
+    <meta name="msvalidate.01" content="F5308A5AD4F907B86D9811208128F708">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
     <link rel="icon" href="/logo.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/favicon.png">
     <title>${pageTitle}</title>
-    <meta name="description" content="Explore ${title} on ${BRAND_NAME}. ${overview}">
+    <meta name="media-type" content="${escapeHtml(mediaType)}">
+    <meta name="description" content="${metaDescription}">
+    <meta name="application-name" content="${BRAND_NAME}">
+    <meta name="keywords" content="${escapeHtml(genres.join(', '))}">
     <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1">
     <link rel="canonical" href="${escapeHtml(canonicalUrl)}">
+    <link rel="alternate" hreflang="en" href="${escapeHtml(canonicalUrl)}">
+    <link rel="alternate" hreflang="x-default" href="${escapeHtml(canonicalUrl)}">
     <meta property="og:title" content="${pageTitle}">
-    <meta property="og:description" content="Explore ${title} on ${BRAND_NAME}. ${overview}">
+    <meta property="og:description" content="${metaDescription}">
+    <meta property="og:url" content="${escapeHtml(canonicalUrl)}">
+    <meta property="og:site_name" content="${BRAND_NAME}">
+    <meta property="og:locale" content="en_US">
+    ${poster ? `<meta property="og:image" content="${poster}">` : ''}
+    <meta property="og:type" content="${escapeHtml(mediaTypeMetadata.openGraphType)}">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${pageTitle}">
+    <meta name="twitter:description" content="${metaDescription}">
+    ${poster ? `<meta name="twitter:image" content="${poster}">` : ''}
+    <script type="application/ld+json">${serializeJsonLd(movieSchema)}</script>
+    <script type="application/ld+json">${serializeJsonLd(breadcrumbSchema)}</script>
     ${PAGE_STYLES}
 </head>
 <body>
@@ -926,14 +1018,15 @@ function renderMoviePage(requestedSlug) {
                     <div class="show-poster-box">
                         <div class="poster-wrapper"><img alt="${title} poster" class="poster-image" loading="lazy" src="${poster}"></div>
                         <dl class="show-meta-list">
-                            <div class="meta-item"><dt>Year</dt><dd>${DISPLAY_YEAR}</dd></div>
+                            ${releaseYear ? `<div class="meta-item"><dt>Year</dt><dd>${escapeHtml(releaseYear)}</dd></div>` : ''}
+                            ${ratingDisplay ? `<div class="meta-item"><dt>Rating</dt><dd>${escapeHtml(ratingDisplay)}${Number.isSafeInteger(ratingCount) && ratingCount > 0 ? ` (${escapeHtml(ratingCount)} votes)` : ''}</dd></div>` : ''}
                             <div class="meta-item"><dt>Genres</dt><dd class="genre-tags">${movieGenresHtml}</dd></div>
                             <div class="meta-item"><dt>Quality</dt><dd>HD</dd></div>
                         </dl>
                     </div>
                     <div class="show-info-box">
-                        <span class="category-tag">Movie</span>
-                        <h1 class="show-title">${pageTitle}</h1>
+                        <span class="category-tag">${escapeHtml(mediaTypeMetadata.label)}</span>
+                        <h1 class="show-title">${title}</h1>
                         <div class="title-divider"></div>
                         <p class="show-synopsis">${overview}</p>
                         ${renderWatchProviders(movie)}
@@ -1041,6 +1134,7 @@ function renderSportsIndexPage() {
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="msvalidate.01" content="F5308A5AD4F907B86D9811208128F708">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
@@ -1109,6 +1203,7 @@ function renderSportPage(requestedSlug) {
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="msvalidate.01" content="F5308A5AD4F907B86D9811208128F708">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
@@ -1162,6 +1257,7 @@ function renderCataloguePage(type) {
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
+    <meta name="msvalidate.01" content="F5308A5AD4F907B86D9811208128F708">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
@@ -1284,6 +1380,7 @@ function renderInfoPage(pageKey) {
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
+    <meta name="msvalidate.01" content="F5308A5AD4F907B86D9811208128F708">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
