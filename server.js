@@ -4,6 +4,7 @@ const express = require('express');
 
 const BRAND_NAME = 'TVBO';
 const DOMAIN = (process.env.SITE_URL || 'https://tvbo.ccwu.cc').replace(/\/+$/, '');
+const PUBLIC_DIR = path.join(__dirname, 'public');
 const MOVIES_DIR = path.join(__dirname, 'movies');
 const SPORT_DATA_DIR = path.join(__dirname, 'sport');
 const DISPLAY_YEAR = 2026;
@@ -245,7 +246,7 @@ function isMovie(item) {
 
 function getContentUrl(item) {
     const slug = encodeURIComponent(item.slug || slugify(item.title));
-    return `${DOMAIN}/${isMovie(item) ? 'movies' : 'en/series'}/${slug}`;
+    return `/${isMovie(item) ? 'movies' : 'series'}/${slug}`;
 }
 
 function getRecommendations(currentItem, limit = RECOMMENDATION_LIMIT) {
@@ -329,14 +330,14 @@ function renderSiteHeader() {
     return `
     <header class="site-header">
         <div class="app-shell header-container">
-            <a class="brand-logo" href="/en/">
+            <a class="brand-logo" href="/">
                 <span class="logo-wrapper"><img src="/logo.svg" alt="" class="logo-icon"><span>${BRAND_NAME}</span></span>
             </a>
             <nav class="desktop-nav" aria-label="Primary">
-                <a href="/en/">Home</a>
-                <a href="/en/series">Series</a>
-                <a href="/en/movies">Movies</a>
-                <a href="/en/sports">Sports</a>
+                <a href="/">Home</a>
+                <a href="/series">Series</a>
+                <a href="/movies">Movies</a>
+                <a href="/sports">Sports</a>
             </nav>
         </div>
     </header>`;
@@ -347,7 +348,7 @@ function renderSiteFooter() {
 <footer class="site-footer">
     <div class="app-shell footer-container">
         <div class="footer-brand">
-            <a class="brand-logo" href="/en/">
+            <a class="brand-logo" href="/">
                 <img src="/logo.svg" alt="" class="logo-icon">
                 <span>${BRAND_NAME}</span>
             </a>
@@ -361,19 +362,19 @@ function renderSiteFooter() {
             <div class="footer-col">
                 <h4>The catalogue</h4>
                 <ul>
-                    <li><a href="/en/movies">Films</a></li>
-                    <li><a href="/en/series">Series</a></li>
+                    <li><a href="/movies">Films</a></li>
+                    <li><a href="/series">Series</a></li>
                 </ul>
             </div>
             <div class="footer-col">
                 <h4>Small print</h4>
                 <ul>
-                    <li><a href="/en/about">About</a></li>
-                    <li><a href="/en/contact">Contact</a></li>
-                    <li><a href="/en/terms">Terms</a></li>
-                    <li><a href="/en/privacy">Privacy</a></li>
-                    <li><a href="/en/cookies">Cookies</a></li>
-                    <li><a href="/en/dmca">Copyright requests</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/terms">Terms</a></li>
+                    <li><a href="/privacy">Privacy</a></li>
+                    <li><a href="/cookies">Cookies</a></li>
+                    <li><a href="/dmca">Copyright requests</a></li>
                 </ul>
             </div>
         </div>
@@ -442,7 +443,8 @@ function renderHomePage() {
     <link rel="icon" href="/logo.svg" type="image/svg+xml">
     <title>Discover movies, series &amp; sports — ${BRAND_NAME}</title>
     <meta name="description" content="Discover films, series, episode guides, cast details, and selected sports listings on ${BRAND_NAME}.">
-    <link rel="canonical" href="${DOMAIN}/en/">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="${DOMAIN}/">
     <meta property="og:title" content="Discover movies, series &amp; sports — ${BRAND_NAME}">
     <meta property="og:description" content="A considered guide to films, series, episodes, and selected sports listings.">
     <meta property="og:site_name" content="${BRAND_NAME}">
@@ -462,19 +464,19 @@ function renderHomePage() {
                 <p>${featuredOverview}</p>
                 <div class="home-actions">
                     <a class="primary-button" href="${featuredUrl}">${featuredItem ? 'Explore title' : 'Browse movies'}</a>
-                    <a class="home-secondary-button" href="/en/sports">Explore sports</a>
+                    <a class="home-secondary-button" href="/sports">Explore sports</a>
                 </div>
             </div>
         </section>
         ${renderHomeSection('Movies', 'Films to add to your watchlist.', movies, '/movies', 'Browse movies')}
-        ${renderHomeSection('Series', 'Find a new series and explore its episodes.', series, '/en/series', 'Browse series')}
+        ${renderHomeSection('Series', 'Find a new series and explore its episodes.', series, '/series', 'Browse series')}
         ${genres.length ? `
         <section class="home-section">
             <header class="home-section-header">
                 <div><h2>Browse by genre</h2><p>Start with the kind of story you are in the mood for.</p></div>
             </header>
             <nav class="home-genres" aria-label="Browse genres">
-                ${genres.map(genre => `<a href="/en/category/${encodeURIComponent(slugify(genre))}">${escapeHtml(genre)}</a>`).join('')}
+                ${genres.map(genre => `<a href="/category/${encodeURIComponent(slugify(genre))}">${escapeHtml(genre)}</a>`).join('')}
             </nav>
         </section>` : ''}
     </main>
@@ -514,7 +516,6 @@ const htmlTemplate = `<!DOCTYPE html>
     <meta name="twitter:description" content="{{SERIES_TITLE}} — {{SERIES_OVERVIEW}} Episode guide, cast information, and related titles on {{BRAND_NAME}}.">
     <meta name="twitter:image" content="{{POSTER_IMAGE_1}}">
 
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -666,8 +667,8 @@ function renderSeriesPage(requestedSlug) {
 
     const show = matchedShow;
     const slug = show.slug || slugify(show.title);
-    const canonicalUrl = `${DOMAIN}/en/series/${slug}`;
-    const homeUrl = `${DOMAIN}/en`;
+    const canonicalUrl = `${DOMAIN}/series/${encodeURIComponent(slug)}`;
+    const homeUrl = DOMAIN;
     const schemaId = `${canonicalUrl}#series`;
 
     const safeTitle = escapeHtml(show.title);
@@ -805,7 +806,11 @@ function renderCategoryPage(requestedCategorySlug) {
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/logo.svg" type="image/svg+xml">
         <title>${pageTitle}</title>
+        <meta name="description" content="Explore ${matchedItems.length} movies and series in ${categoryTitle} on ${BRAND_NAME}.">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="${DOMAIN}/category/${encodeURIComponent(requestedCategorySlug)}">
         <meta property="og:title" content="${pageTitle}">
         <meta name="twitter:title" content="${pageTitle}">
         ${PAGE_STYLES}
@@ -815,7 +820,7 @@ function renderCategoryPage(requestedCategorySlug) {
         <main class="site-main">
             ${AD_BANNERS}
             <nav class="breadcrumb-nav" aria-label="Breadcrumb">
-                <a href="/en/">Home</a><span>/</span><span class="current">${categoryTitle}</span>
+                <a href="/">Home</a><span>/</span><span class="current">${categoryTitle}</span>
             </nav>
             <section class="category-page-section">
                 <span class="page-tag">Category</span>
@@ -856,7 +861,7 @@ function renderMoviePage(requestedSlug) {
     const pageTitle = escapeHtml(`${movie.title} — Watch Free Online in HD - ${BRAND_NAME}`);
     const overview = escapeHtml(getDynamicOverview(movie));
     const poster = escapeHtml(movie.poster || movie.posters?.[0] || '');
-    const homeUrl = `${DOMAIN}/en`;
+    const homeUrl = DOMAIN;
     const canonicalUrl = `${DOMAIN}/movies/${encodeURIComponent(slug)}`;
     const genres = Array.isArray(movie.genres) ? movie.genres : [];
     const movieGenresHtml = genres.length > 0
@@ -870,8 +875,10 @@ function renderMoviePage(requestedSlug) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/logo.svg" type="image/svg+xml">
     <title>${pageTitle}</title>
     <meta name="description" content="Explore ${title} on ${BRAND_NAME}. ${overview}">
+    <meta name="robots" content="index, follow">
     <link rel="canonical" href="${escapeHtml(canonicalUrl)}">
     <meta property="og:title" content="${pageTitle}">
     <meta property="og:description" content="Explore ${title} on ${BRAND_NAME}. ${overview}">
@@ -904,7 +911,7 @@ function renderMoviePage(requestedSlug) {
                         ${renderWatchProviders(movie)}
                         ${renderCast(movie)}
                         ${renderTrailer(movie)}
-                        <div class="cta-row"><a class="primary-button" href="${DOMAIN}/en/movie/${encodeURIComponent(slug)}">Watch now</a></div>
+                        <div class="cta-row"><a class="primary-button" href="${canonicalUrl}">View movie</a></div>
                     </div>
                 </article>
             </section>
@@ -980,7 +987,7 @@ function getSportEventType(event) {
 }
 
 function getSportEventUrl(item) {
-    return `/en/sports/${encodeURIComponent(item.slug)}`;
+    return `/sports/${encodeURIComponent(item.slug)}`;
 }
 
 function renderSportsIndexPage() {
@@ -1007,16 +1014,18 @@ function renderSportsIndexPage() {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/logo.svg" type="image/svg+xml">
     <title>Sports events — ${BRAND_NAME}</title>
     <meta name="description" content="Browse sports events and event details on ${BRAND_NAME}.">
-    <link rel="canonical" href="${DOMAIN}/en/sports">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="${DOMAIN}/sports">
     ${PAGE_STYLES}
 </head>
 <body>
     ${renderSiteHeader()}
     <main class="site-main">
         ${AD_BANNERS}
-        <nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="/en/">Home</a><span>/</span><span class="current">Sports</span></nav>
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span class="current">Sports</span></nav>
         <section class="category-page-section">
             <span class="page-tag">Sports</span>
             <h1>Sports events</h1>
@@ -1071,8 +1080,10 @@ function renderSportPage(requestedSlug) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/logo.svg" type="image/svg+xml">
     <title>${title} — ${BRAND_NAME}</title>
     <meta name="description" content="${overview}">
+    <meta name="robots" content="index, follow">
     <link rel="canonical" href="${escapeHtml(canonicalUrl)}">
     <meta property="og:title" content="${title} — ${BRAND_NAME}">
     <meta property="og:description" content="${overview}">
@@ -1085,7 +1096,7 @@ function renderSportPage(requestedSlug) {
         ${AD_BANNERS}
         <div class="content-container">
             <nav class="breadcrumb-nav" aria-label="Breadcrumb">
-                <a href="/en/">Home</a><span>/</span><a href="/en/sports">Sports</a><span>/</span><span class="current">${title}</span>
+                <a href="/">Home</a><span>/</span><a href="/sports">Sports</a><span>/</span><span class="current">${title}</span>
             </nav>
             <section class="show-hero-section">
                 <article class="show-details-grid">
@@ -1106,28 +1117,109 @@ function renderSportPage(requestedSlug) {
 </html>`;
 }
 
+function renderCataloguePage(type) {
+    const isMoviePage = type === 'movie';
+    const items = getAllContent().filter(item => isMovie(item) === isMoviePage);
+    const sectionTitle = isMoviePage ? 'Movies' : 'Series';
+    const description = isMoviePage
+        ? 'Browse films and movie details on TVBO.'
+        : 'Browse series, episode guides, cast details, and recommendations on TVBO.';
+    const pageTitle = `${sectionTitle} — ${BRAND_NAME}`;
+
+    return `<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/logo.svg" type="image/svg+xml">
+    <title>${pageTitle}</title>
+    <meta name="description" content="${description}">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="${DOMAIN}/${isMoviePage ? 'movies' : 'series'}">
+    ${PAGE_STYLES}
+</head>
+<body>
+    ${renderSiteHeader()}
+    <main class="site-main">
+        ${AD_BANNERS}
+        <section class="category-page-section">
+            <h1>${sectionTitle}</h1>
+            <p class="category-intro">${description}</p>
+            <div class="media-grid">${renderMediaCards(items) || `<p>No ${sectionTitle.toLowerCase()} found.</p>`}</div>
+        </section>
+    </main>
+    ${renderSiteFooter()}
+</body>
+</html>`;
+}
+
 function registerPageRoutes(app) {
+    app.use(express.static(PUBLIC_DIR));
+
+    app.use((req, res, next) => {
+        if (req.path === '/en' || req.path.startsWith('/en/')) {
+            const targetPath = req.path.replace(/^\/en(?=\/|$)/, '') || '/';
+            return res.redirect(301, `${targetPath}${req.url.slice(req.path.length)}`);
+        }
+        next();
+    });
+
+    app.get('/robots.txt', (req, res) => {
+        res.type('text/plain').send(`User-agent: *\nAllow: /\nSitemap: ${DOMAIN}/sitemap.xml\n`);
+    });
+
+    app.get('/sitemap.xml', (req, res) => {
+        const contentUrls = getAllContent().map(item => `${DOMAIN}${getContentUrl(item)}`);
+        const categoryUrls = [...new Set(getAllContent().flatMap(item =>
+            Array.isArray(item.genres)
+                ? item.genres.map(genre => `${DOMAIN}/category/${encodeURIComponent(slugify(genre))}`)
+                : []
+        ))];
+        const sportUrls = getSportEvents().map(item => `${DOMAIN}${getSportEventUrl(item)}`);
+        const urls = [
+            `${DOMAIN}/`,
+            `${DOMAIN}/movies`,
+            `${DOMAIN}/series`,
+            `${DOMAIN}/sports`,
+            ...contentUrls,
+            ...categoryUrls,
+            ...sportUrls
+        ];
+        const entries = [...new Set(urls)]
+            .map(url => `<url><loc>${escapeHtml(url)}</loc></url>`)
+            .join('');
+        res.type('application/xml').send(`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${entries}</urlset>`);
+    });
+
     app.get('/', (req, res) => {
         res.send(renderHomePage());
     });
 
-    app.get('/en/sports', (req, res) => {
+    app.get('/movies', (req, res) => {
+        res.send(renderCataloguePage('movie'));
+    });
+
+    app.get('/series', (req, res) => {
+        res.send(renderCataloguePage('series'));
+    });
+
+    app.get('/sports', (req, res) => {
         res.send(renderSportsIndexPage());
     });
 
-    app.get('/en/sports/:slug', (req, res) => {
+    app.get('/sports/:slug', (req, res) => {
         const html = renderSportPage(req.params.slug);
         if (!html) return res.status(404).send('Sports event not found.');
         res.send(html);
     });
 
-    app.get('/en/category/:slug', (req, res) => {
+    app.get('/category/:slug', (req, res) => {
         const html = renderCategoryPage(req.params.slug);
         if (!html) return res.status(404).send('Category not found.');
         res.send(html);
     });
 
-    app.get('/en/series/:slug', (req, res) => {
+    app.get('/series/:slug', (req, res) => {
         const html = renderSeriesPage(req.params.slug);
         if (!html) return res.status(404).send('Series not found.');
         res.send(html);
