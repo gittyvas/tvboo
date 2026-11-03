@@ -77,6 +77,11 @@ const PAGE_STYLES = `
   .show-title, h1 { margin: 0 0 .8rem; font-size: clamp(1.8rem, 4vw, 2.8rem); line-height: 1.12; overflow-wrap: anywhere; }
   .title-divider, .section-divider { height: 1px; margin: 1rem 0; background: var(--line); }
   .show-synopsis, .category-intro { max-width: 75ch; color: var(--muted); line-height: 1.75; }
+  .legal-copy { max-width: 82ch; color: var(--muted); line-height: 1.75; }
+  .legal-copy h2 { margin: 1.6rem 0 .45rem; color: var(--text); font-size: 1.12rem; }
+  .legal-copy p, .legal-copy ul { margin: .65rem 0; }
+  .legal-copy ul { padding-left: 1.4rem; }
+  .legal-copy a { color: var(--accent); text-decoration: underline; text-underline-offset: .15em; }
   .cast-section { margin-top: 1.25rem; }
   .metadata-heading { margin: 0 0 .7rem; font-size: 1rem; }
   .cast-list { display: flex; flex-wrap: wrap; gap: .85rem; }
@@ -374,7 +379,7 @@ function renderSiteFooter() {
                     <li><a href="/terms">Terms</a></li>
                     <li><a href="/privacy">Privacy</a></li>
                     <li><a href="/cookies">Cookies</a></li>
-                    <li><a href="/dmca">Copyright requests</a></li>
+                    <li><a href="/report-content">Report content</a></li>
                 </ul>
             </div>
         </div>
@@ -1197,6 +1202,129 @@ function renderCataloguePage(type) {
 </html>`;
 }
 
+const INFO_PAGES = {
+    about: {
+        title: 'About TVBO',
+        description: 'Learn about TVBO, a browsable guide to films, series, episodes, and selected sports listings.',
+        content: `
+            <p>TVBO is a straightforward guide for finding something to watch. We bring films, series, episode details, cast information, and selected sports listings together in one catalogue.</p>
+            <h2>A catalogue made to browse</h2>
+            <p>Explore titles by name, genre, or type, then open a title page for its available details and related recommendations. The catalogue changes as new information is added, so availability and listings can vary over time.</p>
+            <h2>About viewing options</h2>
+            <p>TVBO is a guide, not a video-hosting service. Where a title page lists an external viewing provider, that provider operates its own service and controls its content, availability, and terms. Following an external link takes you away from TVBO.</p>
+            <h2>Using TVBO</h2>
+            <p>You can browse the catalogue without creating an account. We aim to keep pages clear and usable across phones, computers, and other screen sizes.</p>
+            <p>For questions, suggestions, or content concerns, visit our <a href="/contact">Contact page</a> or <a href="/report-content">Report content page</a>.</p>`
+    },
+    contact: {
+        title: 'Contact TVBO',
+        description: 'Contact TVBO with questions, feedback, or site-related concerns.',
+        content: `
+            <p>Have a question or feedback about TVBO? Email us at <a href="mailto:contact@tvbo.ccwu.cc">contact@tvbo.ccwu.cc</a>.</p>
+            <h2>Content and viewing providers</h2>
+            <p>TVBO is a catalogue and does not host the video streams offered by independent services. For a stream, account, or playback issue on another service, contact that provider directly. If a TVBO page contains a link that needs review, send us the page address and details through the email above or use <a href="/report-content">Report content</a>.</p>
+            <p>Please do not send passwords, payment information, or other sensitive personal details by email.</p>`
+    },
+    terms: {
+        title: 'Terms of Use',
+        description: 'Terms for browsing and using the TVBO catalogue.',
+        content: `
+            <p><strong>Last updated: ${DISPLAY_YEAR}</strong></p>
+            <h2>1. About TVBO</h2>
+            <p>TVBO provides a catalogue of film and series information, episode guides, selected sports listings, and links to external services. TVBO does not operate or control those external services, and listings or links may change.</p>
+            <h2>2. Using the site</h2>
+            <p>By using TVBO, you agree to use the site lawfully and not to disrupt its operation, misuse its pages, or use links from it to infringe another person's rights. You are responsible for checking that your use complies with the laws that apply to you.</p>
+            <h2>3. Third-party services and content</h2>
+            <p>External providers have their own content, terms, privacy practices, and availability. A link on TVBO is provided for convenience and does not mean TVBO endorses or controls that provider. Any use of a third-party service is between you and that service.</p>
+            <h2>4. Copyright and other rights</h2>
+            <p>We respect intellectual-property rights. If you believe a catalogue entry or link raises a rights concern, see <a href="/report-content">Report content</a> for how to contact us. A TVBO listing does not establish ownership or permission for material offered by an external provider.</p>
+            <h2>5. Availability and liability</h2>
+            <p>We work to keep catalogue information useful, but do not promise that every detail is complete, current, uninterrupted, or error-free. To the extent allowed by applicable law, TVBO is provided as available, and we are not responsible for the operation or content of third-party services.</p>
+            <h2>6. Changes</h2>
+            <p>These terms may be updated as the site changes. The revised terms apply when published here. Please review this page periodically if you continue to use TVBO.</p>`
+    },
+    privacy: {
+        title: 'Privacy Policy',
+        description: 'How TVBO and the third-party services used on the site may process information.',
+        content: `
+            <p><strong>Last updated: ${DISPLAY_YEAR}</strong></p>
+            <p>This policy explains what to keep in mind when browsing TVBO. The catalogue does not currently require an account or ask visitors to submit a profile to browse.</p>
+            <h2>Information processed when you visit</h2>
+            <p>Like other websites, the hosting and delivery systems used to serve TVBO may process basic technical information in connection with a request, such as an IP address, browser details, and the page requested. How long that information is retained depends on the services and configuration used to operate the site.</p>
+            <h2>Advertising and external services</h2>
+            <p>Some pages load advertising supplied by third parties. Clicking an external provider link also takes you to a service outside TVBO. Those third parties may collect information or use cookies under their own privacy policies; TVBO does not control their practices. Please review their notices directly.</p>
+            <h2>Cookies and similar technologies</h2>
+            <p>TVBO does not offer a visitor account or use a cookie-based saved profile. However, the site infrastructure and third-party advertising or linked services may use cookies or similar technologies. See our <a href="/cookies">Cookie Policy</a> for more detail.</p>
+            <h2>Your choices and questions</h2>
+            <p>You can manage cookies and tracking protections in your browser. For questions about this policy or TVBO, contact <a href="mailto:contact@tvbo.ccwu.cc">contact@tvbo.ccwu.cc</a>.</p>
+            <h2>Policy updates</h2>
+            <p>If our practices or this policy change, we will update this page and its revision date.</p>`
+    },
+    cookies: {
+        title: 'Cookie Policy',
+        description: 'Information about cookies and similar technologies used by TVBO and third parties.',
+        content: `
+            <p><strong>Last updated: ${DISPLAY_YEAR}</strong></p>
+            <h2>What cookies are</h2>
+            <p>Cookies are small pieces of information a website or service can store in your browser. Similar technologies may store or access information in other ways.</p>
+            <h2>TVBO and third-party cookies</h2>
+            <p>TVBO does not provide accounts or a cookie-based profile for saving your activity. The hosting systems that deliver the site may use necessary technologies to operate it. TVBO pages also load third-party advertising, and external services linked from the catalogue may use their own cookies or similar technologies. Those providers set their own practices and policies, which TVBO does not control.</p>
+            <h2>Managing cookies</h2>
+            <p>Most browsers let you review, block, or remove cookies in their privacy or security settings. Blocking some cookies may affect the operation of third-party content or services. For details about information handling, see our <a href="/privacy">Privacy Policy</a>.</p>`
+    },
+    'report-content': {
+        title: 'Report content',
+        description: 'How to report a TVBO catalogue entry or link that raises a copyright or content concern.',
+        content: `
+            <p>TVBO is a catalogue, not a video-hosting service. If a title page or link on TVBO raises a concern, email <a href="mailto:contact@tvbo.ccwu.cc">contact@tvbo.ccwu.cc</a> so we can review the listing.</p>
+            <h2>Include these details</h2>
+            <ul>
+                <li>The URL of the TVBO page you are reporting.</li>
+                <li>The title or material concerned and a short explanation of the issue.</li>
+                <li>If you are reporting on behalf of a rights holder, a note explaining your authority to do so.</li>
+                <li>An email address where we can reply if we need clarification.</li>
+            </ul>
+            <h2>What happens next</h2>
+            <p>We will review the information and may contact you for more details. TVBO can review or remove its own catalogue references, but cannot remove material from an independent provider's service. For removal of a hosted stream, send a request to the provider that operates it.</p>
+            <p>Please provide accurate information and avoid including sensitive personal data that is not needed to assess your report.</p>`
+    }
+};
+
+function renderInfoPage(pageKey) {
+    const page = INFO_PAGES[pageKey];
+    if (!page) return null;
+
+    const pageUrl = pageKey === 'report-content' ? 'report-content' : pageKey;
+    return `<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
+    <link rel="icon" href="/logo.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/favicon.png">
+    <title>${page.title} — ${BRAND_NAME}</title>
+    <meta name="description" content="${page.description}">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="${DOMAIN}/${pageUrl}">
+    ${PAGE_STYLES}
+</head>
+<body>
+    ${renderSiteHeader()}
+    <main class="site-main">
+        ${AD_BANNERS}
+        <article class="category-page-section">
+            <span class="page-tag">${pageKey === 'report-content' ? 'Copyright & content' : 'TVBO information'}</span>
+            <h1>${page.title}</h1>
+            <div class="legal-copy">${page.content}</div>
+        </article>
+    </main>
+    ${renderSiteFooter()}
+</body>
+</html>`;
+}
+
 function registerPageRoutes(app) {
     app.use(express.static(PUBLIC_DIR));
 
@@ -1225,6 +1353,7 @@ function registerPageRoutes(app) {
             `${DOMAIN}/movies`,
             `${DOMAIN}/series`,
             `${DOMAIN}/sports`,
+            ...Object.keys(INFO_PAGES).map(page => `${DOMAIN}/${page}`),
             ...contentUrls,
             ...categoryUrls,
             ...sportUrls
@@ -1249,6 +1378,16 @@ function registerPageRoutes(app) {
 
     app.get('/sports', (req, res) => {
         res.send(renderSportsIndexPage());
+    });
+
+    for (const page of Object.keys(INFO_PAGES)) {
+        app.get(`/${page}`, (req, res) => {
+            res.send(renderInfoPage(page));
+        });
+    }
+
+    app.get('/dmca', (req, res) => {
+        res.redirect(301, '/report-content');
     });
 
     app.get('/sports/:slug', (req, res) => {
