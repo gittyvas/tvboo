@@ -10,19 +10,9 @@ const SPORT_DATA_DIR = path.join(__dirname, 'sport');
 const DISPLAY_YEAR = 2026;
 const RECOMMENDATION_LIMIT = 30;
 const AD_BANNERS = `
-  <div class="ad-banners" style="display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:center;gap:1rem;margin:0 auto 2rem;max-width:100%;overflow:hidden">
-    <div>
-      <script>
-        atOptions = {
-          'key' : 'fbae48bbeb744c4a8c3a29119237a6af',
-          'format' : 'iframe',
-          'height' : 300,
-          'width' : 160,
-          'params' : {}
-        };
-      </script>
-      <script src="https://bauval.org/22/fbae48bbeb744c4a8c3a29119237a6af"></script>
-    </div>
+  <div class="ad-banners" style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;margin:1.5rem auto 0;padding:1rem;max-width:100%;overflow:hidden">
+    <script async="async" data-cfasync="false" src="https://bancadeltempoidea.org/21/ef22398ee828bfef4e73a4ac9ea6191a"></script>
+    <div id="container-ef22398ee828bfef4e73a4ac9ea6191a"></div>
   </div>
 `;
 const PAGE_STYLES = `
@@ -387,7 +377,8 @@ function renderSiteFooter() {
             <p>&copy; ${DISPLAY_YEAR} ${BRAND_NAME}. All rights reserved.</p>
         </div>
     </div>
-</footer>`;
+</footer>
+${AD_BANNERS}`;
 }
 
 function renderMediaCards(items) {
@@ -486,7 +477,6 @@ function renderHomePage() {
 <body>
     ${renderSiteHeader()}
     <main class="site-main">
-        ${AD_BANNERS}
         <section class="home-hero" aria-labelledby="home-title">
             ${featuredImage ? `<div class="home-hero-art"><img src="${featuredImage}" alt="" fetchpriority="high"></div>` : ''}
             <div class="home-hero-copy">
@@ -599,7 +589,7 @@ const htmlTemplate = `<!DOCTYPE html>
     </header>
 
     <main class="site-main">
-        ${AD_BANNERS}
+
         <div class="app-shell-watch content-container">
             <nav class="breadcrumb-nav" aria-label="Breadcrumb">
                 <a href="{{HOME_URL}}/">Home</a>
@@ -855,7 +845,6 @@ function renderCategoryPage(requestedCategorySlug) {
     <body>
         ${renderSiteHeader()}
         <main class="site-main">
-            ${AD_BANNERS}
             <nav class="breadcrumb-nav" aria-label="Breadcrumb">
                 <a href="/">Home</a><span>/</span><span class="current">${categoryTitle}</span>
             </nav>
@@ -928,7 +917,6 @@ function renderMoviePage(requestedSlug) {
 <body>
     ${renderSiteHeader()}
     <main class="site-main">
-        ${AD_BANNERS}
         <div class="content-container">
             <nav class="breadcrumb-nav" aria-label="Breadcrumb">
                 <a href="${homeUrl}/">Home</a><span>/</span><a href="${homeUrl}/movies">Movies</a><span>/</span><span class="current">${title}</span>
@@ -951,7 +939,7 @@ function renderMoviePage(requestedSlug) {
                         ${renderWatchProviders(movie)}
                         ${renderCast(movie)}
                         ${renderTrailer(movie)}
-                        <div class="cta-row"><a class="primary-button" href="${canonicalUrl}">View movie</a></div>
+                        <div class="cta-row"><a class="primary-button" href="https://directyp.org/4/b8f2657af784ed0a625b01334530f610" target="_blank" rel="noopener noreferrer">Watch Movie</a></div>
                     </div>
                 </article>
             </section>
@@ -1067,7 +1055,6 @@ function renderSportsIndexPage() {
 <body>
     ${renderSiteHeader()}
     <main class="site-main">
-        ${AD_BANNERS}
         <nav class="breadcrumb-nav" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span class="current">Sports</span></nav>
         <section class="category-page-section">
             <span class="page-tag">Sports</span>
@@ -1139,7 +1126,6 @@ function renderSportPage(requestedSlug) {
 <body>
     ${renderSiteHeader()}
     <main class="site-main">
-        ${AD_BANNERS}
         <div class="content-container">
             <nav class="breadcrumb-nav" aria-label="Breadcrumb">
                 <a href="/">Home</a><span>/</span><a href="/sports">Sports</a><span>/</span><span class="current">${title}</span>
@@ -1190,7 +1176,6 @@ function renderCataloguePage(type) {
 <body>
     ${renderSiteHeader()}
     <main class="site-main">
-        ${AD_BANNERS}
         <section class="category-page-section">
             <h1>${sectionTitle}</h1>
             <p class="category-intro">${description}</p>
@@ -1313,7 +1298,6 @@ function renderInfoPage(pageKey) {
 <body>
     ${renderSiteHeader()}
     <main class="site-main">
-        ${AD_BANNERS}
         <article class="category-page-section">
             <span class="page-tag">${pageKey === 'report-content' ? 'Copyright & content' : 'TVBO information'}</span>
             <h1>${page.title}</h1>
