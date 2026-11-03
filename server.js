@@ -440,7 +440,10 @@ function renderHomePage() {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
     <link rel="icon" href="/logo.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/favicon.png">
     <title>Discover movies, series &amp; sports — ${BRAND_NAME}</title>
     <meta name="description" content="Discover films, series, episode guides, cast details, and selected sports listings on ${BRAND_NAME}.">
     <meta name="robots" content="index, follow">
@@ -450,6 +453,29 @@ function renderHomePage() {
     <meta property="og:site_name" content="${BRAND_NAME}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Discover movies, series &amp; sports — ${BRAND_NAME}">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "${DOMAIN}/#website",
+          "url": "${DOMAIN}/",
+          "name": "${BRAND_NAME}"
+        },
+        {
+          "@type": "Organization",
+          "@id": "${DOMAIN}/#organization",
+          "name": "${BRAND_NAME}",
+          "url": "${DOMAIN}/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "${DOMAIN}/logo.svg"
+          }
+        }
+      ]
+    }
+    </script>
     ${PAGE_STYLES}
 </head>
 <body>
@@ -490,7 +516,10 @@ const htmlTemplate = `<!DOCTYPE html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
     <link rel="icon" href="/logo.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/favicon.png">
     <title>{{PAGE_TITLE}}</title>
     <meta name="description" content="{{SERIES_TITLE}} — {{SERIES_OVERVIEW}} Episode guide, cast information, and related titles on {{BRAND_NAME}}.">
     <meta name="application-name" content="{{BRAND_NAME}}">
@@ -806,7 +835,10 @@ function renderCategoryPage(requestedCategorySlug) {
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/favicon.ico" sizes="any">
+        <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
         <link rel="icon" href="/logo.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="/favicon.png">
         <title>${pageTitle}</title>
         <meta name="description" content="Explore ${matchedItems.length} movies and series in ${categoryTitle} on ${BRAND_NAME}.">
         <meta name="robots" content="index, follow">
@@ -875,7 +907,10 @@ function renderMoviePage(requestedSlug) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
     <link rel="icon" href="/logo.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/favicon.png">
     <title>${pageTitle}</title>
     <meta name="description" content="Explore ${title} on ${BRAND_NAME}. ${overview}">
     <meta name="robots" content="index, follow">
@@ -1014,7 +1049,10 @@ function renderSportsIndexPage() {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
     <link rel="icon" href="/logo.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/favicon.png">
     <title>Sports events — ${BRAND_NAME}</title>
     <meta name="description" content="Browse sports events and event details on ${BRAND_NAME}.">
     <meta name="robots" content="index, follow">
@@ -1080,7 +1118,10 @@ function renderSportPage(requestedSlug) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
     <link rel="icon" href="/logo.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/favicon.png">
     <title>${title} — ${BRAND_NAME}</title>
     <meta name="description" content="${overview}">
     <meta name="robots" content="index, follow">
@@ -1131,7 +1172,10 @@ function renderCataloguePage(type) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
     <link rel="icon" href="/logo.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/favicon.png">
     <title>${pageTitle}</title>
     <meta name="description" content="${description}">
     <meta name="robots" content="index, follow">
