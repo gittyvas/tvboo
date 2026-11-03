@@ -524,7 +524,7 @@ const htmlTemplate = `<!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <meta name="msvalidate.01" content="F5308A5AD4F907B86D9811208128F708">
+    <meta name="msvalidate.01" content="F5308A5AD4F907B86D9811208128F708" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.png" type="image/png" sizes="48x48">
