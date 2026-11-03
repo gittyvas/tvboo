@@ -423,14 +423,14 @@ function renderHomePage() {
     ))]
         .sort((a, b) => a.localeCompare(b))
         .slice(0, 10);
-    const renderHomeSection = (title, description, list, href, linkLabel) => `
+    const renderHomeSection = (title, description, list, href, linkLabel, showAll = false) => `
         <section class="home-section">
             <header class="home-section-header">
                 <div><h2>${title}</h2><p>${description}</p></div>
                 <a class="home-section-link" href="${href}">${linkLabel} &rarr;</a>
             </header>
             <div class="media-grid">${list.length
-                ? renderMediaCards(list.slice(0, 8))
+                ? renderMediaCards(showAll ? list : list.slice(0, 8))
                 : '<p class="home-empty-state">New titles will appear here as the catalogue grows.</p>'}
             </div>
         </section>`;
@@ -494,7 +494,7 @@ function renderHomePage() {
                 </div>
             </div>
         </section>
-        ${renderHomeSection('Movies', 'Films to add to your watchlist.', movies, '/movies', 'Browse movies')}
+        ${renderHomeSection('Movies', 'Films to add to your watchlist.', movies, '/movies', 'Browse movies', true)}
         ${renderHomeSection('Series', 'Find a new series and explore its episodes.', series, '/series', 'Browse series')}
         ${genres.length ? `
         <section class="home-section">
